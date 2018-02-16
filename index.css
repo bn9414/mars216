@@ -1,0 +1,110 @@
+a{text-decoration: none !important; color: #fcfcfc;  }
+
+* {
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+     -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+body{margin: 0px;}
+.cont{    width: 100%; height: 700px;overflow: hidden;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#355892+1,061f47+100 */
+background: #355892; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #355892 1%, #061f47 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #355892 1%,#061f47 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #355892 1%,#061f47 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355892', endColorstr='#061f47',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+p, h1, h2{margin: 0px}
+body{font-family: 'Montserrat', sans-serif;}
+.com_txt {text-align: center;font-size: 75px;color: #fcfcfc;text-shadow: 10px}
+
+.ct{position: relativee;text-shadow: 4px 3px #343434;
+left: 25px;position: relative;display: inline-block;transform: rotate(-7deg);z-index: 3;}
+.mt{ position: relative; text-shadow: 4px 3px #343434;
+    
+  display: inline-block;transform: rotate(-5deg);left: -5px;z-index: ;
+}
+.ot{ position: relative;text-shadow: 4px 3px #343434;left: 10px;z-index: 2;
+    
+  display: inline-block;transform: rotate(5deg)
+}
+.it{ position: relative;text-shadow: 4px 3px #343434;left: -10px;z-index: 2;
+    
+  display: inline-block;transform: rotate(5deg)
+}
+.nt{ position: relative;text-shadow: 3px -3px #343434;left: -20px;
+    
+  display: inline-block;transform: rotate(-8deg)
+}
+.gt{ position: relative;text-shadow: -3px 3px #343434;left: -35px;z-index: 2;
+    
+  display: inline-block;transform: rotate(5deg)
+}
+/*soon*/
+.st{ position: relative;text-shadow: 4px 3px #343434;
+    
+  display: inline-block;transform: rotate(5deg);left: 15px
+}
+.o1t{ position: relative;text-shadow: -4px 3px #343434;
+    
+  display: inline-block;transform: rotate(5deg)
+}
+
+.o2t{left: -20px; position: relative;text-shadow: 2px -3px #343434;
+    
+  display: inline-block;transform: rotate(5deg)
+}
+.n2t{left: -30px;top: -2px; position: relative;text-shadow: 2px -5px #343434;
+    
+  display: inline-block;transform: rotate(-7deg)
+}
+
+.soon{font-size: 120px; position: relative;bottom: 30px;}
+.com{font-size: 100px;}
+
+/*soon*/
+
+/*start: matter*/
+.matter{width: 100%;height: auto; color: #fcfcfc;display: flex;justify-content: center;align-items: center;font-family: 'Roboto', sans-serif;padding-top: 25px;padding-left: 25px;}
+.matter *{border: 1px olid black;}
+.comp,.contact{width: 350px;; height: inherit;}
+.contact{width: 30%;padding-left: 20px;}
+.contact div{margin: 10px;padding-left: 5px;font-size: 22px;display: flex;justify-content: center;align-items: center;}
+.contact h2{margin: 10px;}
+.contact img{width: 30px;padding-right: 10px;position: relative;top: 0px;}
+#mg_ex{position: relative;padding-bottom: 20px;}
+.comp{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;padding-left: 50px;padding-bottom: 20px;}
+.contact{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start; padding-right: 50px;}
+
+
+
+#cletf1{width:  320px;; margin: auto;margin: 0px 0px;;position: relative;margin-top: 10px}
+#cletf1 .mail{ width: 320px; height: auto; padding: 13px 0px; padding-left: 10px;padding-right: 50px;  border-style: none; border-radius: 50px; font-size: 18px; color: #2B2D42;
+box-sizing: border-box}
+input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-serif; }
+ input:focus{
+     outline: none;}
+
+.submit{width: 40px; height: 40px;border-radius: 50%; background-color: #2e4f87;position: absolute;left: 86%;top: 5%; background-image: url(images/right.svg);background-repeat: no-repeat;background-position: 8px;background-size: 28px;border: 0px;}
+
+.div{width: 3px;height: 250px;background-color: #fcfcfc}
+@media screen and (max-width:800px){
+  .soon{font-size: 70px; position: relative;bottom: 10px;}
+.com{font-size: 60px;}  
+    .matter{flex-direction: column;justify-content: center;align-items: flex-start;margin: auto;border: 1px olid white;}
+    .comp,.contact{width: 270px;;font-size: 14px;justify-content: center;align-items: flex-start;padding: 0px; }
+    #cletf1{width: 200px;}
+    .comp{order: -2;border-bottom: 2px solid white;padding-bottom: 15px}
+    input::placeholder{color: #717171; font-size: 12px;font-family: 'Open Sans', sans-serif; }
+    .div{order: -1;margin: 10px auto;
+    }
+    .div{width: 300px;height: 2px;margin-right: 100px;display: none;}
+    .contact p{font-size: 18px;text-decoration: none;color: #fcfcfc !important;}
+    .contact div{padding-left: 0px;margin-left: 0px;}
+    .contact h2{margin-left: 0px;}
+    #cletf1{width: 250px;}
+    #cletf1 .mail{width: 250px;}
+    .submit{left: 82%;background-color: #2e4f87;top: 5px; width: 40px; height: 40px}
+}
+
+/*end: matter*/
