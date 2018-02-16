@@ -1,0 +1,134 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../common/images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;background-position: 50% 200px;
+    
+}
+body{padding-bottom: 50px;}
+.se-pre-con img{width: 100px;;margin: auto;display: block;margin-top: 165px}
+@media screen and (max-width:480px)
+    {
+      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 100px}
+        .se-pre-con {background-size: 60px;background-position: 50% 100px;}    
+        
+}
+/* end pre-load screen*/
+
+textarea:focus, input:focus,select:focus{
+    outline: none;
+}
+
+
+.main_con{width: 100%; height: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.map,.info{width: 100%;height: 500px;border: 1px olid black; }
+.info{height: auto;background-color: #e9f9f3;padding: 30px 5px;}
+.map{order: 1;border: 1px olid black;overflow: hidden}
+.map iframe{height: 100%;width: 100%;}
+.reach{ display: flex;flex-direction: column;justify-content: center;align-items: center}
+.reach img{width: 50px;padding-bottom: 10px}
+.reach .rbox{display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 5px auto;}
+.reach div p{text-align: center;}
+.reach h1,.let h1{padding-bottom: 10px;font-size: 20px;text-align: center;padding-top: 15px;}
+
+
+
+
+
+
+
+.form_cont{ 
+    width: 100%; margin: auto; margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px olid black;
+
+    padding: 20px 0px;
+}
+
+
+
+.fields{ width: 100%; display: flex; justify-content: center; flex-direction: column;   height: auto;}
+
+
+#cletf1, #cletf2, #cletf3,#cletf4{display: flex; justify-content: center; align-items: center; width: 90%; margin: auto;margin: 10px;}
+#clet5 { width: 90%; height: 200px;display: flex; justify-content: center; align-items: center;position: relative;left: 10px}
+
+#cletf1 input, #cletf2 input, #cletf3 input,#cletf4 input, #cletf5 textarea{ width: 95%; height: auto; padding: 13px 0px; padding-left: 45px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;border: 1px solid rgba(37,196,133,0);
+transition: width 0.3s, box-shadow 0.3s,border 0.5s;
+}
+input::placeholder{color: #717171; font-size: 18px;padding-left: 0px; }
+
+#clet5 textarea{ width: 95%; height: 150px;    border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif;
+transition: width 0.3s, border 0.5s;padding-top: 10px;
+}
+input::placeholder{color: #717171; font-size: 16px; }
+#want_ex option,#cletf2 select{color: #717171; font-size: 16px;}
+textarea::placeholder{color: #717171; font-size: 16px; }
+
+/* inter */
+#cletf1 input{background-image: url(images/user.svg);background-size: 35px;}
+#cletf2 input{background-image: url(images/email.svg);background-size: 35px;}
+#cletf3 input{background-image: url(images/phone.svg);background-size: 35px;}
+#cletf4 input{background-image: url(images/loc.svg);background-size: 35px;}
+#clet5 textarea{background-image: url(images/com24.png); background-position: 3px 65px; padding-left: 10px; }
+
+/* inter */
+#cletf1 input:focus{border: 1px solid rgba(37,196,133,1);}
+#cletf2 input:focus{border: 1px solid rgba(37,196,133,1);}
+#cletf3 input:focus{border: 1px solid rgba(37,196,133,1);}
+
+
+#cletf4 input:focus{border: 1px solid rgba(37,196,133,1);}
+
+#cletf6{  display: flex; justify-content: center; align-items: center;}
+#cletf6{ width: 90%; margin-top:5px;padding-left: 25px; position: relative; left: -40px;
+}
+#clet5 textarea:focus{border: 1px solid rgba(37,196,133,1);}
+
+
+#ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#41cab1;  background-repeat: no-repeat; background-position: 93px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);position: relative;top: -5px;right: -30px;
+    
+  
+
+}
+
+#ffsubmit:hover{ padding-right: 43px; background-position: 97px 10px;}
+
+/* end:form*/
+.cont_con *{border: 1px olid}
+
+
+
+
+@media screen and (min-width:900px){
+    .main_con{display: flex;flex-direction: row}
+    .map{order: -1;height: 580px;}
+.reach{width: 100%;}
+.reachtxt{ display: flex;width: 100%;}
+.rbox{width: 140px;}
+    
+    .cont_con{display: flex;flex-direction: row;}
+    .you,.we{padding-top: 20px;padding-bottom: 20px}
+    .cinfo{padding-top: 80px; display: flex;flex-direction: row;}
+    .cinfo1{width: 50%;}
+    .cinfo1 div,.cinfo2 div{padding-bottom: 50px;}
+    .cinfo2{width: 50%;}
+    .form{}
+    .set12{display: flex;flex-direction: row;}
+    .set3{display: flex;width: 100%;position: relative;left: px}
+    #clet5 { height: 100px;width: 65%;}
+    #clet5 textarea{height: 100px;width: 95%}
+    #cletf6{width: 30%;position: relative;left: -20px;padding-left: 0px}
+    
+}
+
