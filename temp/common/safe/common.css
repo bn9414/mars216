@@ -56,8 +56,7 @@ body.home  .dmn1 span{width: 60px;}
 
 
 /*&& s:navigation bar &&*/
-#inlogo img{width: 170px;position: relative;top: 12px;left: 3px}
-#inlogo{display: flex;}
+
 #nav_bar{width: 100%; height: 55px; background-color: #fcfcfc; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 10; position: relative; transition: box-shadow 0.5s;}
 
 .main_menu a{font-size: 28px;}
@@ -156,13 +155,10 @@ body.home  .dmn1 span{width: 60px;}
 
 .b{transform: scale(1.05);}
 .b{transform: scale(1.05);}
- .mainlogo{display: none;}
+
 
 @media screen and (min-width:750px){
-    .mainlogo{}
     
-    
-    #inlogo{display: none;}
     .soc1{border: 1px soli;background-image: url(images/fbw.svg);background-repeat: no-repeat;background-size: contain;transition: background-image 0.5s;}
     .soc1:hover{background-image: url(images/fb.svg);}
     
@@ -177,20 +173,30 @@ body.home  .dmn1 span{width: 60px;}
         .soc4{border: 1px soli;background-image: url(images/googw.svg);background-repeat: no-repeat;background-size: contain;transition: background-image 0.5s;}
     .soc4:hover{background-image: url(images/goog.svg);}
     
-    .mainlogo{width: 100%;height: 80px;position: relative;border: 1px olid red;display: flex;justify-content: space-between;align-items: center;background-color: #fcfcfc;z-index: 11;box-shadow: 0px 2px 20px 1px hsla(0, 0%, 0%, 0.1);}
+    .mainlogo{width: 100%;height: 80px;position: relative;border: 1px olid red;display: flex;justify-content: space-between;align-items: center;}
     .mainl img{width: 50px;}
     .mainl{position: relative;left: 20px;}
     .mainlogo div{border: 1px olid;}
-    .mainr{width: 160px;height: 70px;}
+    .mainr{width: 160px;height: 70px;position: relative;left: -20px}
     .soc{width: 160px; height:40px;display: flex;justify-content: center;align-items: center;}
     .soc div{width: 40px; height: 40px;display: flex;justify-content: center;align-items: center;}
+    .soc div img{width: 40px; height: 40px;
     
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);transition: filter 0.5s;
+    }
+    .soc div img:hover{width: 40px; height: 40px;
+    
+     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    }
     
     
     .mrphone{width: 100%;height: 30px;display: flex;justify-content: center;align-items: center;}
     .mrphone p{color: #25C485}
     .mrphone img{margin-right: 15px}
-    .mainc{width: 310px;}
+    .mainc{width: 400px;border: 1px olid;position: relative;left: 60px;}
+    .mainc img{width: 100%;}
     
     
     
@@ -204,7 +210,7 @@ body.home  .dmn1 span{width: 60px;}
     .dmenu_con{display: flex;justify-content: center;align-items: center;}
     .dmenu{text-align: center;border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black;top: 15px;}
     
-      .dmenu span{border-bottom: solid 2px #25C485;width: 0px;margin: auto;transition: width 0.5s;display: ;}
+      .dmenu span{border-bottom: soli 2px #25C485;width: 0px;margin: auto;transition: width 0.5s;display: ;}
     .dmn1{width: 100px;}
      .dmn1:hover span{width: 100px;}
     .dmn2{width: 160px;}
@@ -240,7 +246,7 @@ body.home  .dmn1 span{width: 60px;}
     .dmn4{width: 140px;}
      .dmn4:hover span{width: 140px;}
     .dmn5{width: 180px;}
-    .dmn5:hover span{width: 180px;}}
+     .dmn5:hover span{width: 180px;}
 
 @media screen and (min-width:1030px){
        
@@ -250,15 +256,15 @@ body.home  .dmn1 span{width: 60px;}
     @media screen and (min-width:1100px){
         .dmenu{font-size: 21px;margin: auto 25px;} 
     .dmn1{width: 120px;}
-     .dmn1:hover span{width: 110px;}
+     .dmn1:hover span{width: 120px;}
     .dmn2{width: 240px;}
-     .dmn2:hover span{width: 220px;}
+     .dmn2:hover span{width: 240px;}
     .dmn3{width: 140px;font-weight: 800;font-size: 25px}
-     .dmn3:hover span{width: 120px;}
+     .dmn3:hover span{width: 140px;}
     .dmn4{width: 160px;}
-     .dmn4:hover span{width: 140px;}
+     .dmn4:hover span{width: 160px;}
     .dmn5{width: 200px;}
-     .dmn5:hover span{width: 180px;}
+     .dmn5:hover span{width: 200px;}
 
   
 }
@@ -268,19 +274,18 @@ body.home  .dmn1 span{width: 60px;}
 /*  ----------------- start:footer section------------------*/
     
 
-.footer{width: 100%; height: 120px; position: absolute; bottom: 0px;background-color:#dcdcdc;display:flex;justify-content: space-between;align-items: center;flex-direction: column;}
-    .footer div{border: 1px olid}
-.fmenu{display: flex;}
-.botlogo{ width: 250px;padding-top: 10px;}
-.botlogo img{width: 100%}
-.copyright p{color: #454545; text-align: center;padding-right: 10px}
+.footer{width: 100%; height: 50px; position: absolute; bottom: 0px;background-color:#454545; }
 
-    .footer a{color: #454545;font-family: 'Roboto', sans-serif;margin: auto 10px ;text-decoration: underline!important;}
+.copyright p{color: #f9f9f9; text-align: center;}
+.copyright{width: 100%; border: 1px olid black; position: absolute; bottom: 12px;width: 100%;padding-bottom: 3px}
 
-@media screen and (min-width:830px){
-    .footer {flex-direction: row;height: 100px;}
-    .botlogo{width: 280px;padding-top: 0px;}
-    .footer a{font-size: 20px}
+
+@media screen and (min-width:500px){
+    .
+    .copyright{width:25%;}
+    .copyright p{width: 100%; margin: auto;}
+ 
+   
     body{padding-bottom: 100px;}
 }
 
