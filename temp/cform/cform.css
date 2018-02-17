@@ -1,0 +1,9 @@
+
+body p{font-family: 'Slabo 27px', serif;}
+body h1{font-family: 'Ubuntu', sans-serif;}
+img{width:200px;;margin: auto;display: block;}
+h1, h3{text-align: center;color: #464646;}
+body{background-color: ghostwhite;}
+.home{text-decoration: none !important; color: #464646;font-size: 20px;display: block;}
+.home{width: auto; height: auto;border: 1px solid #E27A69;display: inline;border-radius: 10px;padding: 10px;margin: auto;}
+#cont{width: 100%;display: flex;}

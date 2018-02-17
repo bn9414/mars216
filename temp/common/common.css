@@ -41,12 +41,13 @@ body h1,body h2,body h3,body p {margin: 0px;color: #454545;}
 a{text-decoration: none !important; color: #c2c2c2; }
 body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 100px;}
 
-body.contact  .dmn6 span{width: 120px;}
-body.offers  .dmn5 span{width: 90px;}
-body.services  .dmn4 span{width: 90px;}
-body.product  .dmn3 span{width: 110px;}
-body.about-us  .dmn2 span{width: 100px;}
-body.home  .dmn1 span{width: 60px;}
+
+
+body.corporate-event  .dmn5 span{width: 170px;}
+body.social-event  .dmn4 span{width: 130px;}
+body.wedding  .dmn3 span{width: 110px;}
+body.brand-management  .dmn2 span{width: 200px;}
+body.live-event  .dmn1 span{width: 110px;}
 
 
 
@@ -183,7 +184,7 @@ body.home  .dmn1 span{width: 60px;}
     .mainlogo div{border: 1px olid;}
     .mainr{width: 160px;height: 70px;}
     .soc{width: 160px; height:40px;display: flex;justify-content: center;align-items: center;}
-    .soc div{width: 40px; height: 40px;display: flex;justify-content: center;align-items: center;}
+    .soc a{width: 40px; height: 40px;display: flex;justify-content: center;align-items: center;display: block;}
     
     
     

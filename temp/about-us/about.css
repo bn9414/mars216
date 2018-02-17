@@ -7,11 +7,19 @@
 .keyb1 p {color: #fcfcfc;margin: 20px;font-size: 18px;}
 .keyb1:hover {background-color: #fcfcfc;}
 .keyb1:hover p{color: #25C485;}
-.kimg {background-image: url(images/keyw.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
-.keyb1:hover .kimg {background-image: url(images/keyg.svg); }
+.kimg {background-image: url(images/creativew.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;background-size: cover;transition: background-image 0.5s;}
+.keyb1:hover .kimg {background-image: url(images/creative.svg); }
 
 .ktxt{position: relative;top: 30px;opacity: 0; transition: top 1s,opacity 1s;}
 .kimg{position: relative;opacity: 0; top: -30px;transition: top 1s,opacity 1s;}
+.kb2{background-image: url(images/heartw.svg)}
+.keyb1:hover .kb2{background-image: url(images/heart.svg)}
+
+.kb3{background-image: url(images/cost-effectivew.svg)}
+.keyb1:hover .kb3{background-image: url(images/cost-effective.svg)}
+
+.kb4{background-image: url(images/funw.svg)}
+.keyb1:hover .kb4{background-image: url(images/fun.svg)}
 
 @media screen and (min-width:740px)
 {   
