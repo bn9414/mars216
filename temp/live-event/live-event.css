@@ -49,7 +49,7 @@
 
 
 
-#view{font-size: 30px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 20px; right: 30px; width: auto;font-family: 'Open Sans', sans-serif;border:1px solid}
+#view{font-size: 30px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 20px; right: 30px; width: auto;font-family: 'Open Sans', sans-serif;border:1px olid}
 #view span{background-image: url(images/right.png);display: inline-block;width: 32px;height: 32px;position: left;background-size: cover;background-position: 0px 5px; background-repeat: no-repeat;transition: background-position 0.5s;}
 #view:hover #specs{background-position: 8px 5px;}
 
@@ -881,7 +881,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 
 
 }
-#carhd,#carp{position: relative;left: 0px;opacity: 1;transition: left 1s, opacity 1s; }
+#carhd,#carp{position: relative;left: -0px;opacity: 1;transition: left 1s, opacity 1s; }
 .map img{width: 200px;margin: 0px auto;border: 1px olid}
 .choose{text-align: left;position: relative;left: -40px}
 .map h1{color: #fcfcfc;font-size: 35px;padding-left: 00px;}
@@ -970,7 +970,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 @media screen and (min-width:900px){
-    .main_con{display: flex;flex-direction: row;overflow: hidden;border: 1px solid;height: 700px;margin: 70px 0px;}
+    .main_con{display: flex;flex-direction: row;overflow: hidden;border: 1px olid;height: 700px;margin: 70px 0px;}
     .map{order: -1;width: 80%; height: 780px;;transform: rotate()}
     .map img{width: 300px;}
     .map h1{font-size: 60px;padding-left: 10px;padding-top: 50px;}
