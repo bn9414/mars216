@@ -25,6 +25,78 @@ portfullf();
 
 
 
+var ele1=document.getElementsByClassName('ele1');
+
+var ele2=document.getElementsByClassName('ele2');
+var dir=document.getElementsByClassName('dir');
+
+var back=document.getElementsByClassName('back');
+
+
+
+function gform()
+{ele1[0].style.display="none";
+    ele2[0].style.display="block";
+    dir[0].style.display="none";
+    back[0].style.display="flex";
+    
+}
+
+function gformc()
+{ele1[0].style.display="block";
+    ele2[0].style.display="none";
+    dir[0].style.display="flex";
+       back[0].style.display="none";
+}
+
+dir[0].addEventListener('click',gform,false);
+
+back[0].addEventListener('click',gformc,false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1985,12 +2057,7 @@ vpo_land[26].addEventListener('click',function(){po_show(26);},false);
 
 
 
-
 /////s: form///
-
-
-
-
 
 
 /////e: form///
