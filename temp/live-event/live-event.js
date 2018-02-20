@@ -26,9 +26,52 @@ portfullf();
 
 
 
+var h = parseInt(window.innerHeight);
+        var w = parseInt(window.innerWidth);
+
+
+var wswit= document.getElementsByClassName('wswit');
+
+var wsin= document.getElementsByClassName('wsin');
+
+var why1=document.getElementsByClassName('why1');
 
 
 
+
+function wswitch(n){
+    
+    wsin[0].style.backgroundColor="#fcfcfc";
+     wsin[1].style.backgroundColor="#fcfcfc";
+     wsin[2].style.backgroundColor="#fcfcfc";
+      wsin[3].style.backgroundColor="#fcfcfc";
+      wsin[4].style.backgroundColor="#fcfcfc";
+     
+
+wsin[n].style.backgroundColor="#25c485";
+       why1[0].style.display="none";
+    why1[1].style.display="none";
+    why1[2].style.display="none"
+     why1[3].style.display="none"
+     why1[4].style.display="none"
+    
+    why1[n].style.display="flex";
+    
+
+}
+
+
+if(w<599){
+wswitch(0);
+}
+wswit[0].addEventListener('click',function() {wswitch(0);}, false);
+
+wswit[1].addEventListener('click',function() {wswitch(1);}, false);
+
+wswit[2].addEventListener('click',function() {wswitch(2);}, false);
+
+wswit[3].addEventListener('click',function() {wswitch(3);}, false);
+wswit[4].addEventListener('click',function() {wswitch(4);}, false);
 
 
 

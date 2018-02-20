@@ -1120,7 +1120,70 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 /* s: why*/
-.why{width: 100%;height: 500px;}
+
+
+
+    .why{width: 100%; height: auto;  border:1px olid red;padding-top: 30px;margin-bottom: 50px}
+.why h1{color: #a0a0a0;font-size: 25px;text-align: center;margin-bottom: 10px;}
+.why h1 span{color: #25C485;font-size: 23px}
+.why span img{width: 60px;border: 1px olid;position: relative;left: 0px;top: 10px}
+.why1{width: 90%; height: auto;border: 1px olid;border-radius: 20px;margin: 5px;display: flex;flex-direction: column;justify-content: center;align-items: center;box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);background-color: #fcfcfc;margin: auto;margin-top: 30px;animation-name: wsani;animation-duration: 1s; animation-fill-mode: forwards;position: relative;}
+    
+    .why1 img{width: 200px;margin-bottom: 0px;border: 1px olid}
+    .why1 p{padding: 5px 15px;padding-bottom: 10px;font-size: 17px;text-align: justify
+    }
+
+
+@media screen and (min-width:600px){
+
+    .why{width: 100%; height: auto;  border:1px olid red;padding-top: 30px}
+.why h1{color: #25C485;font-size: 35px;text-align: center}
+.why span img{width: 60px;border: 1px olid;position: relative;left: 0px;top: 10px}
+.why_cont{width: 100%;margin: auto; height: auto;display: flex;justify-content: space-between;align-items: center;border: 1px olid yellow;margin-top: 50px;flex-wrap: wrap;}
+.why1{width: 250px; height: auto;border: 1px olid;border-radius: 20px;margin: 5px;display: flex;flex-direction: column;justify-content: center;align-items: center;box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);background-color: #fcfcfc}
+    
+    .why1 img{width: 200px;margin-bottom: 0px;border: 1px olid}
+    .why1 p{padding: 0px 10px;padding-bottom: 10px;
+    }
+    
+}
+
+@media screen and (min-width:1100px){
+    
+    .why_cont{width: 80%;}
+    .why1{margin: 20px}
+}
+
+
+
+
+
+
+@media screen and (max-width:599px){
+
+.tswitch,.wswitch{width: 60%; height: 50px;border: 1px olid;margin: auto;margin-top: 30px;display: flex;justify-content: space-between;align-items: center;}
+.tswit,.wswit{width: 30px; height: 30px; border-radius: 50%; background-color: #25C485;display: flex;}
+.tsin,.wsin{width: 20px; height: 20px;background-color: #25C485;border-radius: 50%;margin: auto;border: 3px solid #fcfcfc}
+
+
+
+@keyframes tsani{
+    from{opacity: 0;top: 25px; }
+     to{opacity: 1;top: 0px; }
+    
+}
+
+
+@keyframes wsani{
+    from{opacity: 0;top: 25px; }
+     to{opacity: 1;top: 0px; }
+    
+}
+
+}
+
+
+
 
 /* e: why*/
 
