@@ -77,7 +77,81 @@ wswit[4].addEventListener('click',function() {wswitch(4);}, false);
 
 
 
+var group= document.getElementsByClassName('group');
+var reghd= document.getElementById('reghd');
+var regp= document.getElementById('regp');
+var regmg= document.getElementById('regmg');
 
+
+var workcon= document.getElementsByClassName('work_con');
+
+var whya= document.getElementsByClassName('why');
+
+
+window.onscroll = function() {scrollani()};
+  var h = parseInt(window.innerHeight);
+        var w = parseInt(window.innerWidth);
+function scrollani() {
+    /* build*/
+
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+group[0].style.opacity="1";
+        group[0].style.top="0px";
+ 
+
+        
+      }
+   if(w>900){
+      if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
+reghd.style.opacity="1";
+          regp.style.opacity="1";
+          regmg.style.opacity="1";
+        
+          regmg.style.top="0px";
+        regp.style.top="0px";
+        reghd.style.top="0px";
+        
+      }}
+   
+       if(w<900){
+      if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+reghd.style.opacity="1";
+          regp.style.opacity="1";
+          regmg.style.opacity="1";
+        
+          regmg.style.top="0px";
+        regp.style.top="0px";
+        reghd.style.top="0px";
+        
+      }}
+   
+    
+       if(w>200){
+      if (document.body.scrollTop > 2200 || document.documentElement.scrollTop > 2200) {
+workcon[0].style.opacity="1";
+     
+        
+          workcon[0].style.top="0px";
+
+        
+      }}
+
+    
+       if(w>600){
+      if (document.body.scrollTop > 2700 || document.documentElement.scrollTop > 2700) {
+
+          whya[0].style.backgroundPosition="0% 100px";
+     
+
+        
+      }}
+
+
+
+
+
+
+}
 
 
 

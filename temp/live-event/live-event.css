@@ -25,7 +25,8 @@
 .service h1 img,.work h1 img,.pl1 h1 img{width: 50px;position: relative;top:5px; }
 .work h1 img{top: 9px}
 .service h1,.work h1,.pl1 h1{text-align: center;color:#25C485; }
-.group{width: 100%; height: auto;display: flex;justify-content: flex-start;align-items: clex-start;}
+.group{width: 100%; height: auto;display: flex;justify-content: flex-start;align-items: }
+.group{position: relative;top: 70px;opacity: 0; transition: opacity 1s,top 1s;}
 .g1,.g2{width: auto;height: auto;border: 1px olid ;margin-left: 5px;width: 49% }
 .g21,.g22,.g11,.g12{width: auto;height: auto;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;border: 1px olid;margin-right:0px;}
 
@@ -655,7 +656,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
      .left_t{display: inline-block; width: 50px; height: 50px; background-size: 100%; margin-right: 10px;}
     .right_t{display: inline-block;width: 50px; height: 50px; background-size: 100%;}
      .parrow_t{display: block;z-index: 0; width: 120px; height: 60px; bottom: 25px; left: 50%; margin-left: -50px;z-index: 0;}
-    .parrow_t{bottom: 0px;}
+    .parrow_t{bottom: 30px;}
     #parrow_m_ex{ bottom:-10px;}
     
     #pl2pics .po_wide_p{width: 45%; position: fixed;z-index: 7; margin: auto; top:5%; left:25%; }
@@ -726,7 +727,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
    
    
     
-#view{font-size: 25px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 20px; right: 30px; width: auto;}
+#view{font-size: 25px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 50px; right: 30px; width: auto;}
 #view span{background-image: url(images/right.png);display: inline-block;width: 32px;height: 32px;position: left;background-size: cover;background-position: 0px 5px; background-repeat: no-repeat;transition: background-position 0.5s;position: relative; top: 5px}
 #view:hover #specs{background-position: 8px 5px;}
     
@@ -748,7 +749,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
       .pl1 *{border: 1px olid }
     
     /* start: view all*/
-    #view{font-size: 15px;bottom: 25px;right: 5px}
+    #view{font-size: 15px;bottom: 55px;right: 5px}
 #view span{width: 22px; height: 22px;position: relative; top: 3px;}
 #view:hover #specs{background-position: 5px 5px;}
     /* end: view all*/
@@ -788,7 +789,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
  
     
-    .parrow_m{display: block; width: 100px; height: 50px; bottom: 5px; left: 50%; margin-left: -50px;z-index: 1;}
+    .parrow_m{display: block; width: 100px; height: 50px; bottom: 35px; left: 50%; margin-left: -50px;z-index: 1;}
     .left_m{display: inline-block; width: 40px; height: 40px; background-size: 100%; margin-right: 10px;}
     .right_m{display: inline-block;width: 40px; height: 40px; background-size: 100%;}
   
@@ -844,7 +845,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 }  
 @media screen and (min-width:450px) and (max-width:550px){
     .pimage img{width: 155%;height: auto;}
-    .parrow_t{bottom: 0px;}
+    .parrow_t{bottom: 30px;}
     #po2{position: relative; left: -100px;}
     #po3{position: relative; left: -100px;}
     #po5{position: relative; left: -50px;}
@@ -861,7 +862,8 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
 /* s: form*/
 
-
+#reghd,#regp{position: relative;top: 50px;opacity: 0; transition: opacity 1s,top 1s;}
+#regmg{position: relative;top:-50px;opacity: 0; transition: opacity 1s,top 1s;}
 
 
 
@@ -881,7 +883,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 
 
 }
-#carhd,#carp{position: relative;left: -0px;opacity: 1;transition: left 1s, opacity 1s; }
+#carhd,#carp{position: relative;left: -100px;opacity: 0;transition: left 1s, opacity 1s; }
 .map img{width: 200px;margin: 0px auto;border: 1px olid}
 .choose{text-align: left;position: relative;left: -40px}
 
@@ -898,7 +900,8 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 
 
 
-
+.detail_ex{text-align: center;margin-top: 15px}
+.detail_ex a{color:#25C485 }
 
 .form_cont{ 
     width: 100%; margin: auto; margin-top: 10px;
@@ -1083,6 +1086,8 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 /* s: work*/
 
+.work_con{opacity: 0;position: relative;top: 70px;transition: opacity 1s, top 1s;}
+
 .work{width: 100%; height: auto;border: 1px olid;background-image: url(images/workbgm.svg);background-repeat: no-repeat;background-size: cover;background-position: 0% 0px;}
 .work_con{display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
 .work1,.work2,.work3{width: 90%;height: 310px;border: 1px olid;margin: 20px 0px;border-radius: 10px;background-color: #fcfcfc; box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);position: relative;overflow: hidden}
@@ -1113,6 +1118,9 @@ textarea::placeholder{color: #717171; font-size: 16px; }
      .work2{position: relative;top: 100px}
        .work3 img,.work2 img,.work1 img{position: absolute;left: -30px;top: 210px;width: 150px}
    
+    
+
+
   
 
 }
@@ -1140,7 +1148,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 @media screen and (min-width:600px){
 
-    .why{width: 100%; height: auto;  border:1px olid red;padding-top: 30px;background-image: url(images/whybg.svg);background-repeat: no-repeat;background-position: 0% 100px}
+    .why{width: 100%; height: auto;  border:1px olid red;padding-top: 30px;background-image: url(images/whybg.svg);background-repeat: no-repeat;background-position: -400px 100px;transition: background-position 1s;}
 .why h1{color: #25C485;font-size: 35px;text-align: center;margin-bottom: 10px;}
 .why1 h1{color: #a0a0a0;font-size: 20px;text-align: center;margin-bottom: 10px;}
 .why h1 span{color: #25C485;font-size: 23px}
