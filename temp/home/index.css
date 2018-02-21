@@ -1,0 +1,50 @@
+
+   .slide{overflow: hidden;width: 100%; height: auto;border: 1px solid;}
+.scon{width: 100%;height: auto;position: relative;animation-name: wsani;animation-duration: 1s; animation-fill-mode: forwards;overflow: hidden;margin: auto;}
+.scon h1{position: absolute; left: 100px; color: #25C485;top: 20%;font-size: 45px}
+.scon p{position: absolute;} 
+
+
+@media screen and (min-width:1150px){
+   .slide{overflow: hidden;width: 100%; height: auto;border: 1px solid;}
+.scon{width: 100%;height: auto;position: relative;animation-name: wsani;animation-duration: 1s; animation-fill-mode: forwards;overflow: hidden;margin: auto;}
+.scon h1{position: absolute; left: 100px; color: #25C485;top: 20%;font-size: 45px}
+.scon p{position: absolute;} 
+    
+    
+}
+
+
+/*
+.tswitch,.wswitch{width: 70%; height: 50px;border: 1px olid;margin: auto;margin-top: 30px;display: flex;justify-content: space-between;align-items: center;position: absolute; top: 150px;right: 50px;}
+.tswit,.wswit{width: 20px; height: 20px; border-radius: 50%; background-color: rgba(255,255,255,0);border: 3px solid #25C485;display: flex;}
+.tsin,.wsin{width: 10px; height: 10px;background-color: #25C485;border-radius: 50%;margin: auto;}
+
+*/
+
+.tswitch,.wswitch{width: 30px; height: 120px;border: 1px olid;margin: auto;margin-top: 30px;display: flex;flex-direction: column;justify-content: space-between;align-items: center;position: absolute; top: 50px;right: 0px;}
+.tswit,.wswit{width: 20px; height: 20px; border-radius: 50%; background-color: rgba(255,255,255,0);border: 3px solid #25C485;display: flex;}
+.tsin,.wsin{width: 10px; height: 10px;background-color: #25C485;border-radius: 50%;margin: auto;}
+
+
+@media screen and (min-width:1150px){
+
+.tswitch,.wswitch{width: 30px; height: 250px;border: 1px olid;margin: auto;margin-top: 30px;display: flex;flex-direction: column;justify-content: space-between;align-items: center;position: absolute; top: 300px;right: 20px;}
+.tswit,.wswit{width: 30px; height: 30px; border-radius: 50%; background-color: rgba(255,255,255,0);border: 3px solid #25C485;display: flex;}
+.tsin,.wsin{width: 20px; height: 20px;background-color: #25C485;border-radius: 50%;margin: auto;}
+
+
+}
+
+
+@keyframes wsani{
+    from{opacity: 0;width: 105%; }
+     to{opacity: 1;width: 100%; }
+    
+}
+
+
+
+
+
+.phil{width: 100%; height: 500px;}
