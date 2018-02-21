@@ -241,11 +241,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 }
 
 
-@keyframes wsani{
-    from{opacity: 0;top: 25px; }
-     to{opacity: 1;top: 0px; }
-    
-}
+
 
 }
 
