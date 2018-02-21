@@ -57,7 +57,9 @@ body.live-event  .dmn1 span{width: 110px;}
 
 
 /*&& s:navigation bar &&*/
-#inlogo img{width: 170px;position: relative;top: 12px;left: 3px}
+#inlogo{width: 170px;position: relative;top: 12px;left: 3px}
+#inlogo img{width: 100%;}
+#inlogo {border: 1px solid black;}
 #inlogo{display: flex;}
 #nav_bar{width: 100%; height: 55px; background-color: #fcfcfc; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 10; position: relative; transition: box-shadow 0.5s;}
 
