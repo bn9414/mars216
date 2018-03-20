@@ -14,7 +14,7 @@ background: linear-gradient(135deg, #355892 1%,#061f47 100%); /* W3C, IE10+, FF1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355892', endColorstr='#061f47',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-p, h1, h2{margin: 0px}
+p, h1, h2{margin: 5px}
 body{font-family: 'Montserrat', sans-serif;}
 .com_txt {text-align: center;font-size: 75px;color: #fcfcfc;text-shadow: 10px}
 
