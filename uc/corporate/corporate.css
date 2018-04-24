@@ -1,0 +1,296 @@
+.so-ban{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 300%;
+    
+}
+.so-cap h1{
+    font-size:16px;
+    position: relative;
+    color:#fcfcfc;
+    width: 200px;
+}
+.so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+.so-lne{
+    border:2px solid #9b3236;
+    width:40px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+}
+@media(min-width:600px){
+    .so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-ban{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 100%;
+}
+    .so-cap h1{
+        font-size:35px;
+       width: 200%;
+    }
+    .so-lne{
+    border:2px solid #9b3236;
+    width:80px;
+    left: 50%;
+    position: absolute;
+}
+}
+@media(min-width:700px){
+    .so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-ban{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 100%;
+}
+}
+/*sec2*/
+.relimg img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.fn-lst{
+    position: relative
+}
+
+h2{
+    font-weight: 500;
+    font-size: 25px;
+    color: #454545;
+}
+.sec2-hd{
+    text-align: center;
+}
+.sec2-hd h2{
+    color: #454545;
+    font-weight: 500;
+}
+.sec-2 p{
+    padding: 10px;
+    text-align: center;
+    color: #72727291
+}
+
+@media(min-width:900px){
+    .sec-2{
+        padding: 0 50px;}
+  
+}
+@media(min-width:600px){
+    .relimg img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+}
+
+/*sec2*/
+/*img-corporate*/
+@media(max-width:330px){
+    .img-dvcon{
+    width: 250px !important;
+    height: 250px;
+    margin: 10px auto;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+}
+.corp-inr{
+    display: flex;
+    flex-direction: column;
+}
+.img-dvcon{
+    width: 300px;
+    height: 250px;
+    margin: 10px auto;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    
+    overflow: hidden;
+    
+}
+.img-dvcon *{transition: 1s;}
+.restimg{
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;left: 0;right: 0;
+    opacity: 0.5;
+    z-index: 1
+}
+.semi{
+    color: #fcfcfc;
+    z-index: 10;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.btlne{
+    border: 1px solid #9b3236;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+.txt-cop{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    z-index: 10;
+  
+}
+/*.txt-cop{
+    top: 30px;
+}*/
+.crop-p p{
+  z-index: 10;
+    position: relative;
+    color: #454545;
+    top: 250px;
+    opacity:0;
+    padding: 0 5px;
+}
+.img-dvcon:hover .restimg{
+    position: absolute;
+    background: #e2da37;
+    width: 100%;
+    height: 100%;left: 0;right: 0;
+    opacity: 0.8;
+    z-index: 1
+}
+.img-dvcon:hover .txt-cop{
+    top: 30px;
+    transition: top 1s;
+}
+.img-dvcon:hover .crop-p p{
+    top: 30px;
+    opacity: 1;
+    transition: opacity 1s,top 1s;
+    animation: txtan 1s;
+}
+@keyframes txtan{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.img-dv1{
+    background: url(images/smile.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv2{
+    background: url(images/202.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv3{
+    background: url(images/produ.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv4{
+    background: url(images/watr.jpeg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv5{
+    background: url(images/run.jpeg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv6{
+    background: url(images/1837.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv7{
+    background: url(images/cam.jpeg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-dv8{
+    background: url(images/team.jpeg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+@media(min-width:600px){
+    .corp-inr{width: auto;margin: auto;
+    display: flex;
+    flex-direction: row;
+        padding: 0 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+}
+    .img-dvcon{
+    width: 380px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+    
+}
+@media (min-width: 1200px)
+.img-dvcon {
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+}
+@media(min-width:1300px){
+    .corp-inr{
+    display: flex;
+    flex-direction: row;
+        padding: 0 50px;
+}
+    .img-dvcon{
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+    
+}
+/*img-corporate*/

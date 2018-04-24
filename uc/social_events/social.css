@@ -1,0 +1,346 @@
+.so-ban{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 300%;
+    
+}
+.so-cap h1{
+    font-size:16px;
+    position: relative;
+    color:#fcfcfc;
+    width: 200px;
+}
+.so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+.so-lne{
+    border:2px solid #9b3236;
+    width:40px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+}
+@media(min-width:600px){
+    .so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-ban{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 100%;
+}
+    .so-cap h1{
+        font-size:35px;
+       width: 200%;
+    }
+    .so-lne{
+    border:2px solid #9b3236;
+    width:80px;
+    left: 50%;
+    position: absolute;
+}
+}
+@media(min-width:700px){
+    .so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-ban{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 100%;
+}
+}
+
+/*.so-ban{
+    position: relative;
+}
+.so-ban img{
+    width: 100%;
+}
+.so-cap h1{
+    font-size:16px;
+    position: relative;
+    color:#fcfcfc;
+}
+.so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+.so-lne{
+    border:2px solid #9b3236;
+    width:40px;
+    left: 35px;
+    position: absolute;
+}
+@media(min-width:600px){
+    .so-cap{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-cap h1{
+        font-size:35px;
+    }
+    .so-lne{
+    border:2px solid #9b3236;
+    width:80px;
+    left: 85px;
+    position: absolute;
+}
+}*/
+
+/*sec2*/
+
+.relimg img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.fn-lst{
+    position: relative
+}
+.baloon{
+    position: absolute;
+    display: none
+}
+.baloon img{
+    width: 50%;
+    position: relative;
+    left: 30px;
+    top: -160px;
+}
+.baloon2{
+    position: absolute;
+    right: -180px;
+    display: none;
+}
+.baloon2 img{
+    width: 50%;
+    position: relative;
+    top: -160px;
+    
+}
+h2{
+    font-weight: 500;
+    font-size: 25px;
+    color: #454545;
+}
+.sec2-hd{
+    text-align: center;
+}
+.sec2-hd h2{
+    color: #454545;
+    font-weight: 500;
+}
+.sec-2 p{
+    padding: 10px;
+    text-align: center;
+    color: #72727291
+}
+
+@media(min-width:900px){
+    .sec-2{
+        padding: 0 50px;}
+    
+        
+  
+}
+@media(min-width:1060px){
+    .baloon{
+    position: absolute;
+           display: block;
+}
+.baloon img{
+    width: 50%;
+    position: relative;
+    left: 30px;
+    top: -160px;
+}
+.baloon2{
+    position: absolute;
+    right: -180px;
+     display: block
+}
+.baloon2 img{
+    width: 50%;
+    position: relative;
+    top: -160px;
+    
+}
+}
+/*sec2*/
+/*few*/
+
+.few{
+    text-align: center;
+    margin: 10px;
+}
+.info-ev img{
+    width: 100px;
+}
+.few p{
+    margin: 10px auto;
+}
+@media(min-width:600px){
+    .few p{
+   width:500px;
+    margin: 10px auto;
+}
+    .relimg img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+}
+/*few-end*/
+/*function ban*/
+
+.img-fun .fun-imgss{
+    width:180%;position: relative;
+}
+.img-fun{
+  position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.funban{
+    padding: 10px ;
+}
+.info-ev{
+    text-align: center;
+    /*border: 2px solid #f1edecd9;*/
+    background-color: #f1edecd9;
+    margin: 0px 10px;
+    padding: 5px;
+    position: absolute;
+    top: 0%;
+    height: auto;
+}
+.ev1-inf{
+    left: 10px;
+}
+
+@media(min-width:500px){
+    .info-ev{
+       width: 300px;
+        height: auto;
+        right: 10px;
+    }
+    .icon-bth{
+    position: static !important;
+    
+}
+    .img-fun{
+   position: relative;width: 100%; height: auto;overflow: hidden;
+;}
+    .img-fun .fun-imgss{
+    width:100%;position: relative;top: -50px;
+}
+
+}
+@media(min-width:600px){
+    .info-ev img {
+    width: 110px;
+}
+    .info-ev h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .info-ev{
+       width: 300px;
+        height: auto;
+        right: 10px;
+        padding: 10px;
+    }
+    .info-ev p{
+        font-size:18px;
+        padding: 10px;
+        font-weight: 300;
+    }
+.img-fun{
+   position: relative;width: 100%; height: auto;overflow: hidden;
+;}
+    .img-fun .fun-imgss{
+    width:100%;position: relative;top: -50px;
+}
+}
+@media(min-width:700px){
+    .info-ev{
+       width: 300px;
+        height: auto;
+        right: 10px;
+        padding: 10px;
+    }
+    .info-ev p{
+        font-size:18px;
+        padding: 10px;
+        font-weight: 300;
+        margin: 0;
+    }
+.img-fun{
+   position: relative;width: 100%; height: auto;overflow: hidden;
+;}
+    .img-fun .fun-imgss{
+    width:100%;position: relative;top: -50px;
+}
+}
+@media(min-width:900px){
+    .info-ev{
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .funban{
+    padding: 10px 60px;
+}
+    .img-fun{
+   position: relative;width: 100%; height: auto;overflow: hidden;
+;}
+    .img-fun .fun-imgss{
+    width:100%;position: relative;top: -50px;
+}
+}
+@media(min-width:1000px){
+    .info-ev{
+        height: auto;
+    }
+
+    .funban{
+    padding: 10px 60px;
+}
+    .img-fun{
+   position: relative;width: 100%; height: 450px;overflow: hidden;
+;}
+    .img-fun .fun-imgss{
+    width:100%;position: relative;top: -50px;
+}
+}
+/*function ban*/
