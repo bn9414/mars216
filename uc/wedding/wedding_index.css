@@ -887,3 +887,14 @@ padding: 5px 0;
 }
 
 /*gallery*/
+
+
+
+/*S:other wedding services*/
+.ser-cont{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 90%;margin: auto}
+.ser1{border: 1px olid black;width: 100px; display: flex;justify-content: center;align-items: center;flex-direction: column;margin: 0px 40px}
+.ser1 img{width: 80px;}
+
+
+
+/*E:other wedding services*/
