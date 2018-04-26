@@ -8,10 +8,9 @@
     
 }
 .so-cap h1{
-    font-size:16px;
+    font-size: 20px;
     position: relative;
-    color:#fcfcfc;
-    width: 200px;
+    color: #fcfcfc;
 }
 .so-cap{
     position: absolute;
@@ -137,15 +136,15 @@
 }
 .baloon2{
     position: absolute;
-    right: -180px;
     display: none;
 }
 .baloon2 img{
     width: 50%;
     position: relative;
     top: -160px;
-    
+     right: -180px;
 }
+
 h2{
     font-weight: 500;
     font-size: 25px;
@@ -184,13 +183,14 @@ h2{
 }
 .baloon2{
     position: absolute;
-    right: -180px;
-     display: block
+     display: block;
+    right: 0px;
 }
 .baloon2 img{
     width: 50%;
     position: relative;
     top: -160px;
+    right: -180px;
     
 }
 }

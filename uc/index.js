@@ -233,3 +233,27 @@ function gallery(g){
 }
 gallery(1);
 /*gallery*/
+window.onscroll = function(){
+    spliter()
+};
+
+var h = parseInt(window.innerHeight);
+
+var w = parseInt(window.innerWidth);
+
+var sap1 = document.getElementsByClassName("sap1");
+
+var sap2 = document.getElementsByClassName("sap2");
+function spliter(){
+
+if(document.body.scrollTop >1600 || document.documentElement.scrollTop > 1600){
+    sap1[0].style.top="-80px";
+    sap1[0].style.opacity="1";
+    sap1[0].style.animation="sap1 1s";
+    
+    sap2[0].style.top="30px";
+    sap2[0].style.opacity="1";
+    sap2[0].style.animation="sap2 1s";
+    
+}
+    }

@@ -370,16 +370,43 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 
 @media screen and (min-width:700px){
     
-    .hdtxt{;font-size: 25px;right: 10px;width: 430px;text-align: center;}
+    .hdtxt{top: 40%;font-size: 25px;right: 10px;width: 450px;text-align: left;margin: 0;left:100px;}
     .sidebg{width: 350px;right: -30px;}
     .sch img{width: 100%;vertical-align:middle}
+    .butbox {
+    position: absolute;
+    top: 50%;
+    left: 100px !important;
+    transform: translate(0) !important;
+    display: flex;
+}
+    .switch{
+        position:absolute;
+        width: 100%;
+        top: 150px;
+        bottom: 50%;
+    } 
+    .prev{
+        left: 0;
+        position: absolute;
+    }
+    .nxt{
+        right: 0;
+        position: absolute;
+    }
 }
 
 
 @media screen and (min-width:900px){
         
-    .hdtxt{top: 30%;font-size: 35px;right: 10px;transform: translateY(-50%);}
+    .hdtxt{top: 40%;font-size: 35px;right: 10px;transform: translateY(-50%);}
     .sidebg{width: 410px;right: -40px;}
+    .switch{
+        position:absolute;
+        width: 100%;
+        top: 200px;
+        bottom: 50%;
+    } 
 
 }
 @media screen and (min-width:1200px){
@@ -627,6 +654,7 @@ font-size: 16px;
     /*border: 1px solid;*/
     justify-content: space-between;
    margin: 10px 0px;
+    cursor: pointer;
 }
 .active{
     background: #da5050 !important;
@@ -638,6 +666,7 @@ font-size: 16px;
     border: 1px solid #454545;
     border-radius: 50px;
     background: #454545;
+    cursor: pointer;
 }
 .sld-rn{
     display: flex;
@@ -994,11 +1023,13 @@ font-size: 16px;
     transform: skew(-15deg);
     position: relative;
     left: 50px;
-    top: -80px;
+    top: 50px;
   background: url("images/child.jpg") no-repeat;
     background-size:cover;
     background-position: 20% 10%;
-
+    opacity: 0;
+    transition: left 1s;
+/*animation: sap1 1s;*/
 }
 
 .sap2{
@@ -1006,14 +1037,23 @@ font-size: 16px;
     height: 400px;
     transform: skew(-15deg);
     position: relative;
-    top: 30px;
+    top: 50px;
     left: -40px;
     background: url("images/ring.jpg") no-repeat;
     background-size:cover;
     background-position: 50% 0%;
-    
-    
+    opacity: 0;
+    transition: left 1s;
+    /*animation: sap2 1s;*/
 }
+    @keyframes sap1 {
+        0%{top:50px;opacity: 0;}
+        100%{top:-80px;opacity: 1;}
+    }
+    @keyframes sap2 {
+        0%{top:-50px;opacity: 0;}
+        100%{top:30px;opacity: 1;}
+    }
 .spimg{
    
     width: 500px;
@@ -1177,8 +1217,13 @@ font-size: 16px;
     font-size: 15px;
     
 }
+.tsi-para p{
+    position: relative;
+    animation: tetxt 1s;
+}
 .tsi-para{
-    padding: 0px 10px
+    padding: 0px 10px;
+    
 }
 .tsti-slider-act{
     display: flex;
@@ -1206,17 +1251,27 @@ font-size: 16px;
     animation: fun 1s;
     transition: 0.7s;
     position: relative;
+    
 }
 .tusr-img{
-    
     width: 100px;
     height: 100px;
     margin: auto;
+     
 }
 .tusr-img img{
     width: 100%;
     border-radius: 100%;
-    
+    animation: tet 1s;
+    position: relative;
+}
+@keyframes tet{
+    0%{left:50px;opacity: 0;}
+    100%{left:0px;opacity: 1;}
+}
+@keyframes tetxt{
+    0%{left:-50px;opacity: 0;}
+    100%{left:0px;opacity: 1;}
 }
 .testi-hd h3{
     margin: 0;
@@ -1549,3 +1604,76 @@ padding: 5px 0;
     .butbox a{font-size: 20px;width: 130px;}
 }
 
+@media(min-width:1700px){
+    .hdtxt {
+    font-size: 45px !important;
+    right: 30px;
+    width: 650px !important;
+}
+    .butbox {
+    position: absolute;
+    top: 60% !important;
+    }
+    .butbox a {
+    font-size: 25px !important;
+    width: 130px;
+    padding: 10px !important;
+}
+    .switch img {
+    width: 70px !important;
+}
+    
+    .col-7 h3 {
+    font-weight: 500;
+    font-size: 25px;
+}
+    
+    .fil-cn img {
+    width: 150px !important;
+}
+    .icn-cap p {
+    font-size: 20px;
+    font-weight: 600;
+}
+    .fil-cn {
+    width: 250px;
+}
+    .sld-rn p, .ch-hed p {
+    color: #fcfcfc;
+    margin: 0;
+    font-size: 20px;
+}
+    .sld-rn h1 {
+    margin: 0;
+    font-size: 30px;
+}
+    .spimg {
+    width: 600px;
+    }
+    .sap1,.sap2{
+    width: 250px;
+    height: 450px;
+    }
+    .mo-hed {
+    margin: 210px 0px;
+        margin-bottom: 0;
+    }
+    .testi-hd h3 {
+    margin: 0;
+    font-size: 35px;
+}
+    .slider-con {
+    width: 100%;
+    height: 550px;
+}
+    .switch {
+    position: absolute;
+    width: 100%;
+    top: 210px;
+    bottom: 50%;
+}
+    .gala-act p {
+    font-size: 20px;
+    font-weight: 600;
+}
+}

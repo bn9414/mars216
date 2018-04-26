@@ -220,6 +220,7 @@ a{
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
+    cursor: pointer;
 }
 .sub-mne a:before {
   content: "";
@@ -244,7 +245,7 @@ a{
 @media(min-width:1000px){
   #submnu1{
     display: flex;
-      z-index: 10;
+      z-index: 1;
           background: #fcfcfc;
 }
     .bar-con{
@@ -283,6 +284,7 @@ a{
     }
     .bar-con1{
     /*position: absolute;*/
+        cursor: pointer;
 }
 .bar1{
    
@@ -330,7 +332,7 @@ a{
         display: flex;
         flex-direction: column;
         right: 50px;
-        top: 45px;
+        top: 60px;
         padding: 10px;
         opacity: 0;
     }
@@ -560,4 +562,128 @@ button:focus{
         display: none;
     }
 }
+@media(min-width:700px){
+    .col-3 .lgo img{
+    width: 150px;
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 15px;
+    }
+}
+.col-3 .lgo img{
+    width: 150px;
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 15px;
+    }
 /*footer*/
+
+/*at 1700 above*/
+@media(min-width:1700px){
+    .nav-web a{
+        font-size: 20px;
+    }
+    .lft-prt a{
+        font-size: 20px
+    }
+    .lft-prt img{
+        width: 25px;
+    }
+    .lft-prt{
+        width: 400px;
+    }
+    .rgt-prt a img {
+    width: 30px;
+    filter: grayscale(100%);
+}
+    .bar1 {
+    width: 35px;
+    height: 6px;
+}
+    .sub-mne {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    top: 70px;
+    padding: 10px;
+    opacity: 0;
+}
+    .sub-mne a {
+   font-size: 20px;
+        
+}
+    p{
+        font-size: 22px;
+    }
+    
+    h1 {
+    font-size: 35px;
+    margin: 0;
+}
+    .gala-act p {
+    font-size: 20px;
+    font-weight: 600;
+}
+    .gala-cape .cape-img {
+    width: 50px !important;
+    }
+    .cap-hd1 h3, .cap-hd1 p {
+    color: #fcfcfc;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+    .gala-cape .cap-hd1 p {
+    font-size: 18px !important;
+    text-align: center;
+    margin: 0 auto;
+        width: 350px !important;
+}
+    .gala-cape {
+    position: absolute;
+    left: 20px !important;
+    opacity: 1;
+    top: 70px;
+    margin: auto;
+}
+    .fot-img {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+    .foot-p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+    .list-img {
+    font-size: 15px;
+    }
+    .sl-img {
+    width: 100px;
+    vertical-align: middle;
+    height: 80px;
+}
+    .list-sty {
+    font-size: 15px;
+    line-height: 20px;
+}
+    .cpy-txt p {
+    color: #fcfcfc;
+    font-size: 15px;
+}
+    .col-3 .lgo img{
+    width: 180px;
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 15px;
+    }
+    input::placeholder{
+        font-size:20px;
+    }
+}
+/*at 1700 above*/
