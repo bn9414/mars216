@@ -1,6 +1,24 @@
+@media (max-width:600px){
+        .so-cap h1{
+    font-size: 28px !important;
+    position: relative;
+    color: #fcfcfc;
+    width: 300px !important;
+            text-align: center;
+}
+}
+@media (max-width:320px){
+        .so-cap h1{
+    font-size: 22px !important;
+    position: relative;
+    color: #fcfcfc;
+    width: 300px !important;
+            text-align: center;
+}
+}
 .so-ban{
     position: relative;
-    height: 300px;
+    height: auto;
     overflow: hidden;
 }
 .so-ban img{
@@ -11,11 +29,10 @@
     font-size: 20px;
     position: relative;
     color: #fcfcfc;
-        width: 200px;
 }
 .so-cap{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,50%);
         
@@ -30,7 +47,7 @@
 @media(min-width:600px){
     .so-cap{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,50%);
         
@@ -40,8 +57,19 @@
     height: auto;
     overflow: hidden;
 }
+    @keyframes imgso{
+    
+    from {width:130%;opacity: 0;}
+    to {width: 120%;opacity:1;}
+    
+    
+    }
+    
 .so-ban img{
-    width: 100%;
+    width: 120%;
+    transition: width 1s;
+    animation: imgso 2s;
+    
 }
     .so-cap h1{
         font-size:35px;
@@ -57,19 +85,24 @@
 @media(min-width:700px){
     .so-cap{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,50%);
         
 }
     .so-ban{
     position: relative;
-    height: auto;
+    height: 300px;
     overflow: hidden;
 }
-.so-ban img{
+/*.so-ban img{
     width: 100%;
+}*/
 }
+@media(min-width:900px){
+    .so-ban{
+    width:500px;
+    }
 }
 /*sobanend*/
 
