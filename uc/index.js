@@ -28,12 +28,14 @@ function scrollImg(z){
     ban[1].style.display="none";
     ban[2].style.display="none";
     ban[3].style.display="none";
+    ban[4].style.display="none";
     ban[z].style.display="block";
     
    caphd[0].style.display="none";
     caphd[1].style.display="none";
     caphd[2].style.display="none";
      caphd[3].style.display="none";
+    caphd[4].style.display="none";
     caphd[z].style.display="block";                              
 }
 scrollImg(0);
@@ -118,6 +120,7 @@ function testi(ts){
         tsval4.style.display="none";
         tsval1.style.display="block";
         
+        
     }
     else if(ts == 2){
         dot12.style.background="#da5050";
@@ -172,67 +175,7 @@ function testi(ts){
 }
 testi(1);
 /*testi*/
-/*gallery*/
-var galaact = document.getElementsByClassName('bb-hhd');
-galaact[0].addEventListener('click',function(){
-    gallery(1);
-},false);
 
-galaact[1].addEventListener('click',function(){
-    gallery(2);
-},false);
-
-galaact[2].addEventListener('click',function(){
-    gallery(3);
-},false);
-
-galaact[3].addEventListener('click',function(){
-    gallery(4);
-},false);
-
-galaact[4].addEventListener('click',function(){
-    gallery(5);
-},false);
-var galaimg = document.getElementsByClassName('gala-imgs');
-function gallery(g){
-    if(g == 1){
-        galaimg[0].style.display="flex";
-        galaimg[1].style.display="none";
-        galaimg[2].style.display="none";
-        galaimg[3].style.display="none";
-        galaimg[4].style.display="none";
-    }
-    else if(g == 2){
-        galaimg[0].style.display="none";
-        galaimg[1].style.display="flex";
-        galaimg[2].style.display="none";
-        galaimg[3].style.display="none";
-        galaimg[4].style.display="none";
-    }
-    else if(g == 3){
-        galaimg[0].style.display="none";
-        galaimg[1].style.display="none";
-        galaimg[2].style.display="flex";
-        galaimg[3].style.display="none";
-        galaimg[4].style.display="none";
-    }
-    else if(g == 4){
-        galaimg[0].style.display="none";
-        galaimg[1].style.display="none";
-        galaimg[2].style.display="none";
-        galaimg[3].style.display="flex";
-        galaimg[4].style.display="none";
-    }
-    else if(g == 5){
-        galaimg[0].style.display="none";
-        galaimg[1].style.display="none";
-        galaimg[2].style.display="none";
-        galaimg[3].style.display="none";
-        galaimg[4].style.display="flex";
-    }
-}
-gallery(1);
-/*gallery*/
 window.onscroll = function(){
     spliter()
 };
@@ -245,7 +188,7 @@ var sap1 = document.getElementsByClassName("sap1");
 
 var sap2 = document.getElementsByClassName("sap2");
 function spliter(){
-
+if(w > 700){
 if(document.body.scrollTop >1600 || document.documentElement.scrollTop > 1600){
     sap1[0].style.top="-80px";
     sap1[0].style.opacity="1";
@@ -256,4 +199,38 @@ if(document.body.scrollTop >1600 || document.documentElement.scrollTop > 1600){
     sap2[0].style.animation="sap2 1s";
     
 }
+    if(document.body.scrollTop >800 || document.documentElement.scrollTop > 800){
+    var fiim = document.getElementsByClassName("fi-im");
+    
+        fiim[0].style.top="0px";
+        fiim[0].style.opacity="1";
+        
+         fiim[1].style.top="0px";
+        fiim[1].style.opacity="1";
+        
+         fiim[2].style.top="0px";
+        fiim[2].style.opacity="1";
+        
+         fiim[3].style.top="0px";
+        fiim[3].style.opacity="1";
+        
+}
+    if(document.body.scrollTop >2000 || document.documentElement.scrollTop > 2000){
+    var fimo = document.getElementsByClassName("fimo");
+    
+        fimo[0].style.top="0px";
+        fimo[0].style.opacity="1";
+        
+        fimo[1].style.top="0px";
+        fimo[1].style.opacity="1";
+        
+         fimo[2].style.top="0px";
+        fimo[2].style.opacity="1";
+        
+        
+        
+}
+    
+}
     }
+

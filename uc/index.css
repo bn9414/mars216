@@ -466,8 +466,8 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     width: 100%;
 }
 .sclee-txt{
-    width: 100%;
     display: flex;
+    padding: 0 10px;
     
 }
 @media(min-width:800px){
@@ -593,6 +593,15 @@ font-size: 16px;
 }
 
 }
+@media(min-width:700px){
+    .fil-cn .fi-im {
+    width: 100px;
+    top: -50px;
+    position: relative;
+    opacity: 0;
+    transition: top 1s;
+}
+}
 @media (min-width:617px) and (max-width:816px){
     .fil-cn {
     width: 280px;
@@ -650,10 +659,10 @@ font-size: 16px;
 .slider-act{
     display: flex;
     flex-direction: row;
-    width: 30px;
+    width: 50px;
     /*border: 1px solid;*/
     justify-content: space-between;
-   margin: 10px 0px;
+   margin: 30px 0px;
     cursor: pointer;
 }
 .active{
@@ -661,10 +670,10 @@ font-size: 16px;
     border: 1px solid #da5050 !important;
 }
 .dot{
-    width:10px;
-    height: 10px;
+    width:20px;
+    height: 20px;
     border: 1px solid #454545;
-    border-radius: 50px;
+    border-radius: 50%;
     background: #454545;
     cursor: pointer;
 }
@@ -769,7 +778,16 @@ font-size: 16px;
     font-size: 25px
 }
 }
-
+@media(min-width:700px){
+    .rn-img img{
+        animation: tetxt 1s;
+        position: relative;
+    }
+    .sld-rn p,.sld-rn h1,.udr{
+        animation: tet 1s;
+        position: relative;
+    }
+}
 
 
 /*why choose*/
@@ -1155,12 +1173,17 @@ font-size: 16px;
     margin: auto;
     display: block;
     position: relative;
-    top: 0px;
+    top: -50px;
 }
     .mo-cir p{
     font-size: 16px;
     transform: scale(0.8);
 }
+    .fimo{
+        top:-50px;
+        opacity: 0;
+        transition: top 1s;
+    }
 }
 @media (min-width:1000px){
     .mo-con{
@@ -1188,7 +1211,7 @@ font-size: 16px;
     margin: auto;
     display: block;
     position: relative;
-    top: 0px;
+    
 }
     .mo-hed {
     margin: 180px 0px;
@@ -1228,7 +1251,7 @@ font-size: 16px;
 .tsti-slider-act{
     display: flex;
     flex-direction: row;
-    width: 60px;
+    width: 100px;
     /*border: 1px solid;*/
     justify-content: space-between;
    margin: 10px 0px;
@@ -1302,75 +1325,60 @@ font-size: 16px;
     }
 }
 /*testimonial*/
- /*gallerymobile*/
-@media(min-width:600px){
-    .mobi-gala{
-        display: none;
-    }
+ .a-con{
+    position: relative;
 }
-.bir-hd p{
-    font-size: 15px;
-    font-weight: 600;
-    padding: 0 5px;
+.galar-main{
+    display: flex;
+}
+.gala-hd,.gala-para{
     text-align: center;
 }
-.eve-amg{
-    width: 200px;
-    margin: 0 auto;
-    position: relative;
-     cursor: pointer;
+.gala-act{
+    display: none;
 }
-.eve-amg img{
-    width: 100%;
-    vertical-align: middle;
-}
-.img-mng::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    left: 0;right: 0;
-    background: rgba(0,0,0,0.8);
+.gala-imgs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        animation: fun 1s;
+        position: relative;
+    }
+    .gala-imgs img{
+        width: 150px;
+        vertical-align: middle;
+        height: 100%;
+    }
+    galar-main{
+        margin: 0
+    }
+    
+.gala-cape{
     position: absolute;
+   left: 10px;
     opacity: 1;
+    transform: scale(0.8);
 }
-.gala-cap{
-    position: absolute;
-    top: 30px;
-    left: 0px;
-    opacity: 1;
-}
-.gala-cap img{
+.gala-cape .cape-img{
     width: 30px;
     position: relative;
     display: block;
     margin: auto;
     
 }
-.cap-hd1{
-    padding: 0px 5px;
-}
-.cap-hd1 h3,.cap-hd1 p{
-    color: #fcfcfc;
-    margin: 0;
-    text-align: center
-}
-.cap-hd1 p{
-    font-size: 10px;
+.gala-cape .cap-hd1 p{
+    font-size: 14px;
     text-align: center;
-    margin:0;
+    margin: 0 auto;
+    width: 150px;
+    
 }
-
-/*gallerymobile*/
-/*gallery*/
-.galar-main{
+@media(min-width:600px){
+    .gala-act{
     display: none;
 }
-.gala-hd,.gala-para{
-    text-align: center;
-}
-
-
-@media(min-width:600px){
 .gala-hd,.gala-para{
     text-align: center;
 }
@@ -1391,7 +1399,7 @@ font-size: 16px;
         margin: auto
     }
     .gala-act{
-        display: flex;
+        display: none;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
@@ -1481,6 +1489,9 @@ padding: 5px 0;
 }
 
 @media(min-width:700px){
+    .gala-act{
+    display: none;
+}
     .gala-imgs{
         display: flex;
         flex-direction: row;
@@ -1507,6 +1518,9 @@ padding: 5px 0;
     }
 }
 @media(min-width:700px){
+    .gala-act{
+    display: none;
+}
     .gala-cape {
     position: absolute;
     left: 10px;
@@ -1514,6 +1528,9 @@ padding: 5px 0;
 }
 }
 @media(min-width:850px){
+    .gala-act{
+    display: none;
+}
     .gala-cape {
     position: absolute;
     left: 0px;
