@@ -1,6 +1,24 @@
+@media (max-width:600px){
+        .so-cap h1{
+    font-size: 28px !important;
+    position: relative;
+    color: #fcfcfc;
+    width: 300px !important;
+            text-align: center;
+}
+}
+@media (max-width:320px){
+        .so-cap h1{
+    font-size: 22px !important;
+    position: relative;
+    color: #fcfcfc;
+    width: 300px !important;
+            text-align: center;
+}
+}
 .so-ban{
     position: relative;
-    height: 300px;
+    height: auto;
     overflow: hidden;
 }
 .so-ban img{
@@ -39,8 +57,19 @@
     height: auto;
     overflow: hidden;
 }
+    @keyframes imgso{
+    
+    from {width:130%;opacity: 0;}
+    to {width: 120%;opacity:1;}
+    
+    
+    }
+    
 .so-ban img{
-    width: 100%;
+    width: 120%;
+    transition: width 1s;
+    animation: imgso 2s;
+    
 }
     .so-cap h1{
         font-size:35px;
@@ -63,14 +92,18 @@
 }
     .so-ban{
     position: relative;
-    height: auto;
+    height: 300px;
     overflow: hidden;
 }
-.so-ban img{
+/*.so-ban img{
     width: 100%;
+}*/
 }
+@media(min-width:900px){
+    .so-ban{
+    width:500px;
+    }
 }
-
 /*sec2*/
 .relimg img {
     width: 50%;
@@ -139,7 +172,7 @@ h2{
     overflow: hidden;
     
 }
-.img-dvcon *{transition: 1s;}
+/*.img-dvcon *{transition: 1s;}*/
 .restimg{
     position: absolute;
     background: #000;
@@ -149,12 +182,13 @@ h2{
     z-index: 1
 }
 .semi{
-    color: #fcfcfc;
+        color: #fcfcfc;
     z-index: 10;
     position: relative;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
+    padding: 5px 0px;
     
 }
 .btlne{
@@ -180,8 +214,9 @@ h2{
     position: relative;
     color: #454545;
     top: 250px;
-    opacity:0;
-    padding: 0 5px;
+    opacity: 0;
+    padding: 0 20px;
+    font-size: 16px;
 }
 .img-dvcon:hover .restimg{
     position: absolute;
@@ -196,7 +231,7 @@ h2{
     transition: top 1s;
 }
 .img-dvcon:hover .crop-p p{
-    top: 30px;
+    top: 40px;
     opacity: 1;
     transition: opacity 1s,top 1s;
     animation: txtan 1s;
@@ -257,6 +292,7 @@ h2{
         
         
 }
+    
     .img-dvcon{
     width: 380px;
     height: 300px;
@@ -264,8 +300,13 @@ h2{
     position: relative;
     z-index: 0;
     cursor: pointer;
+    bottom: -100px;
+       opacity: 0;
 }
-    
+    @-webkit-keyframes btm {
+        0%{bottom:-100px;opacity:0;}
+        100%{bottom:0px;opacity:1;}
+         }
 }
 @media (min-width: 1200px)
 .img-dvcon {

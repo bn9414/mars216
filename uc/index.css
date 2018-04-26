@@ -21,7 +21,6 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 
 .ban{
     display: block;
-  
    transition: 0.1s;
     animation-name: fadeIn ;
     animation-duration: 1s;
