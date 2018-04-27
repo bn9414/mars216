@@ -43,6 +43,13 @@ body.home  .dmn1 span{width: 60px;}
 	background: url(../common/images/preload.gif) center no-repeat #f9f9f9;background-size: 130px;background-color: white;background-position: 50% 200px;
     
 }
+/*gallery*/
+.gala-imgs {
+    position: relative;
+    margin: 30px 0px;
+}
+/*gallery*/
+
 /*topnav*/
 .top-nav{
    display: none;
