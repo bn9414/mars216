@@ -22,8 +22,11 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 .ban{
     display: block;
    transition: 0.1s;
+   -webkit-transition: 0.1s;
     animation-name: fadeIn ;
+    -webkit--webkit-animation-name: fadeIn ;
     animation-duration: 1s;
+    -webkit-animation-duration: 1s;
 }
 
 @-webkit-keyframes fadeIn {
@@ -83,7 +86,8 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 
 .switch{
         position: absolute;
-    left: 50%;transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 00px;
 }
 .switch img{width: 35px;margin: 0px 2px}
@@ -858,6 +862,7 @@ font-size: 16px;
     width: 180px;
     height: 600px;
   transform: skew(-15deg);
+        -webkit-transform: skew(-15deg);
     position: relative;
     left: -25px;
     top: -20px;
@@ -871,6 +876,7 @@ font-size: 16px;
     width: 180px;
     height: 600px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     top: 30px;
     left: -25px;
@@ -898,6 +904,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+        -webkit-transform: skew(-15deg);
     position: relative;
     left: 10px;
     top: -20px;
@@ -911,6 +918,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     top: 30px;
     left: 13px;
@@ -945,6 +953,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     left: 50px;
     top: -80px;
@@ -958,6 +967,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     top: 30px;
     left: -40px;
@@ -1002,6 +1012,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+        -webkit-transform: skew(-15deg);
     position: relative;
     left: 50px;
     top: -80px;
@@ -1015,6 +1026,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     top: 30px;
     left: -10px;
@@ -1038,6 +1050,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     left: 50px;
     top: 50px;
@@ -1053,6 +1066,7 @@ font-size: 16px;
     width: 200px;
     height: 400px;
     transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
     position: relative;
     top: 50px;
     left: -40px;

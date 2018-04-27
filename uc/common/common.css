@@ -49,7 +49,11 @@ body.home  .dmn1 span{width: 60px;}
     margin: 30px 0px;
 }
 /*gallery*/
-
+/*scale*/
+.col-7 {
+    padding: 10px 10px;
+}
+/*scale*/
 /*topnav*/
 .top-nav{
    display: none;
