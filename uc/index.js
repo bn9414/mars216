@@ -215,7 +215,7 @@ if(document.body.scrollTop >1600 || document.documentElement.scrollTop > 1600){
         fiim[3].style.opacity="1";
         
 }
-    if(document.body.scrollTop >2000 || document.documentElement.scrollTop > 2000){
+    if(document.body.scrollTop >2300 || document.documentElement.scrollTop > 2300){
     var fimo = document.getElementsByClassName("fimo");
     
         fimo[0].style.top="0px";
