@@ -513,14 +513,14 @@ ul.list-sty li a {
     color: #fcfcfc;
     font-size: 13px;
 }
-@media(max-width:330px){
+@media(max-width:450px){
     .sl-img {
     width: 65px !important;
     vertical-align: middle;
     height: 60px !important;
 }
 }
-@media(max-width:700px){
+@media (min-width:500px) and (max-width:700px){
     .sl-img {
     width: 100px !important;
     vertical-align: middle;

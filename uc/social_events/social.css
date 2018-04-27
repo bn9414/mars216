@@ -420,7 +420,7 @@ h2{
     .gala-imgs img{
         width: 150px;
         vertical-align: middle;
-        /*height: 100%;*/
+        height: 100%;
     }
     galar-main{
         margin: 0
@@ -433,18 +433,25 @@ h2{
     transform: scale(0.8);
 }
 .gala-cape .cape-img{
-    width: 30px;
+    width: 20px;
     position: relative;
     display: block;
     margin: auto;
     
 }
-.gala-cape .cap-hd1 p{
+.gala-cape .cap-hd1 p{color: #fcfcfc;
     font-size: 14px;
     text-align: center;
     margin: 0 auto;
     width: 150px;
     
+}
+.gala-cape .cap-hd1 h3{text-align: center;margin: 0px;font-size: 15px;color: #fcfcfc}
+       .gala-cape {
+    position: absolute;
+    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
+    opacity: 1;
+           font-size: 15px
 }
 @media(min-width:600px){
     .gala-act{
@@ -587,6 +594,7 @@ padding: 5px 0;
         margin: auto;
         
     }
+    
 }
 @media(min-width:700px){
     .gala-act{
@@ -594,7 +602,7 @@ padding: 5px 0;
 }
     .gala-cape {
     position: absolute;
-    left: 10px;
+    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
     opacity: 1;
 }
 }
@@ -614,6 +622,11 @@ padding: 5px 0;
     margin: 0 auto;
     width: 200px;
 }
+    .gala-cape {
+    position: absolute;
+    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
+    opacity: 1;
+}
 }
 @media(min-width:1000px){
     .gala-cape {
@@ -623,12 +636,13 @@ padding: 5px 0;
     top: 40px;
     margin: auto;
     }
-    .gala-cape .cap-hd1 p {
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-    
+        .gala-cape {
+    position: absolute;
+    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
+    opacity: 1;
 }
+    .gala-cape cap-hd1 h3, .gala-cape cap-hd1 p {font-size: 20px}
+
 }
 @media(min-width:1100px){
     .gala-cape {
