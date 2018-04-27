@@ -513,6 +513,20 @@ ul.list-sty li a {
     color: #fcfcfc;
     font-size: 13px;
 }
+@media(max-width:330px){
+    .sl-img {
+    width: 65px !important;
+    vertical-align: middle;
+    height: 60px !important;
+}
+}
+@media(max-width:700px){
+    .sl-img {
+    width: 100px !important;
+    vertical-align: middle;
+    height: 80px !important;
+}
+}
 @media (max-width:800px){
     .fir-div {
     display: flex;
@@ -660,11 +674,11 @@ button:focus{
 }
     .foot-p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
 }
     .list-img {
-    font-size: 15px;
+    font-size: 18px;
     }
     .sl-img {
     width: 100px;
@@ -672,12 +686,12 @@ button:focus{
     height: 80px;
 }
     .list-sty {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
 }
     .cpy-txt p {
     color: #fcfcfc;
-    font-size: 15px;
+    font-size: 18px;
 }
     .col-3 .lgo img{
     width: 180px;
@@ -689,9 +703,51 @@ button:focus{
     input::placeholder{
         font-size:20px;
     }
+    .close span {
+    top: 15px !important;
+    position: relative;
+    color: #fcfcfc;
+}
+.close {
+    position: absolute;
+    border: 2px solid #fcfcfc !important;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    top: 0px;
+    right: 20%;
+    text-align: center;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+}
+.col-7 h3 {
+    font-weight: 500;
+    font-size: 25px;
+}
+.sec2-hd h2 {
+    color: #454545;
+    font-weight: 500;
+    font-size: 30px;
+}
+    .foot-msg{
+        font-size: 25px;
+    }
+    .nav-web {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    padding: 10px 50px;
+    padding-top: 25px;
+}
+    .nav-web a {
+    font-size: 25px;
+}
 }
 /*at 1700 above*/
 .gala-imgs {position: relative;}
+
+
 .glli{
     position: absolute;
     width: 50% !important;
@@ -742,4 +798,13 @@ button:focus{
     transform: translateX(-50%);
     z-index: 9999;
 }
+}
+input::placeholder{
+    margin: 0;
+    position: relative;
+    top: 4px;
+}
+input[type="email"]::placeholder{
+    position: relative;
+    left: 4px
 }
