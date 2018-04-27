@@ -743,6 +743,19 @@ button:focus{
     .nav-web a {
     font-size: 25px;
 }
+    .gala-cape .cap-hd1 h3 {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px !important;
+    color: #fcfcfc;
+}
+    .gala-cape {
+    position: absolute;
+    opacity: 1;
+    top: 70px;
+    margin: auto;
+    left: 60px !important;
+}
 }
 /*at 1700 above*/
 .gala-imgs {position: relative;}
