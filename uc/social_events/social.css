@@ -32,7 +32,7 @@
 }
 .so-cap{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,50%);
         
@@ -44,6 +44,8 @@
     position: absolute;
     transform: translate(-50%,50%);
 }
+
+
 @media(min-width:600px){
     .so-cap{
     position: absolute;
@@ -99,10 +101,12 @@
     width: 100%;
 }*/
 }
+
 @media(min-width:900px){
     .so-ban{
-    width:500px;
+    height:500px;
     }
+    .so-cap{top:220px;}
 }
 /*.so-ban{
     position: relative;
@@ -329,8 +333,21 @@ h2{
     .info-ev{
        width: 300px;
         height: auto;
-        right: 10px;
+        right: 200px;
         padding: 10px;
+        opacity: 0;
+    }
+    .ev1-inf{
+    left: 200px;
+}
+
+    @keyframes rg{
+        0%{right:200px;opacity: 0;}
+        100%{right:10px;opacity: 1;}
+    }
+    @keyframes lg{
+        0%{left:200px;opacity: 0;}
+        100%{left:10px;opacity: 1;}
     }
     .info-ev p{
         font-size:18px;

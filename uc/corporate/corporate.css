@@ -32,7 +32,7 @@
 }
 .so-cap{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,50%);
         
@@ -101,8 +101,9 @@
 }
 @media(min-width:900px){
     .so-ban{
-    width:500px;
+    height:500px;
     }
+     .so-cap{top:200px;}
 }
 /*sec2*/
 .relimg img {
@@ -201,10 +202,20 @@ h2{
 .txt-cop{
     position: relative;
     left: 50%;
-    top: 50%;
+    top: 80px;
     transform: translate(-50%,50%);
     z-index: 10;
   
+}
+@media(min-width:600px){
+    .txt-cop{
+    position: relative;
+    left: 50%;
+    top: 120px;
+    transform: translate(-50%,50%);
+    z-index: 10;
+  
+}
 }
 /*.txt-cop{
     top: 30px;
@@ -308,7 +319,7 @@ h2{
         100%{bottom:0px;opacity:1;}
          }
 }
-@media (min-width: 1200px)
+@media (min-width: 1200px){
 .img-dvcon {
     width: 350px;
     height: 300px;
