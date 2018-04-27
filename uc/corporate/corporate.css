@@ -620,3 +620,20 @@ padding: 5px 0;
 }
 
 /*gallery*/
+/*above 1700*/
+@media(min-width:1700px){
+    .semi {
+    font-size: 23px;
+    font-weight: 400;
+}
+    .crop-p p {
+    font-size: 20px;
+}
+    .img-dvcon:hover .crop-p p{
+    top: 50px;
+    opacity: 1;
+    transition: opacity 1s,top 1s;
+    animation: txtan 1s;
+}
+}
+/*above 1700*/
