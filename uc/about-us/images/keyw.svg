@@ -1,0 +1,21 @@
+<svg width="38" height="64" xmlns="http://www.w3.org/2000/svg" class="si-duo-test-tube">
+ <title/>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke-width="2" stroke="#fcfcfc" id="Shape_1_" fill="none" d="m5,2l0,47c0,7.732 6.268,14 14,14s14,-6.268 14,-14l0,-48" class="si-duo-test-tube-test-tube si-duo-test-tube-stroke si-duo-test-tube-base si-duo-stroke si-duo-base"/>
+  <path stroke-width="2" stroke="#fcfcfc" id="Shape" fill="none" d="m0.148141,0.851859l38,0" class="si-duo-test-tube-test-tube si-duo-test-tube-stroke si-duo-test-tube-base si-duo-stroke si-duo-base"/>
+  <path stroke-width="2" stroke="#fcfcfc" id="Shape_2_" fill="none" d="m5,21c0,0 6.667,6.667 15,0s13,0 13,0" class="si-duo-test-tube-wave-line si-duo-test-tube-stroke si-duo-test-tube-base si-duo-stroke si-duo-base"/>
+  <circle stroke-width="2" stroke="#1396D7" r="0" id="Oval" fill="none" cy="50" cx="11" class="si-duo-test-tube-circle si-duo-test-tube-stroke si-duo-test-tube-accent si-duo-stroke si-duo-accent"/>
+  <circle stroke-width="2" stroke="#1396D7" r="0" id="Oval_1_" fill="none" cy="33" cx="17" class="si-duo-test-tube-circle si-duo-test-tube-stroke si-duo-test-tube-accent si-duo-stroke si-duo-accent"/>
+  <circle stroke-width="2" stroke="#1396D7" r="0" id="Oval_2_" fill="none" cy="43" cx="27" class="si-duo-test-tube-circle si-duo-test-tube-stroke si-duo-test-tube-accent si-duo-stroke si-duo-accent"/>
+  <circle stroke-width="2" stroke="#1396D7" r="0" id="Oval_3_" fill="none" cy="12" cx="23" class="si-duo-test-tube-circle si-duo-test-tube-stroke si-duo-test-tube-accent si-duo-stroke si-duo-accent"/>
+  <ellipse ry="4.370166" rx="4.370166" id="svg_1" cy="43.480944" cx="15.444608" fill-opacity="null" stroke-width="2" stroke="#fcfcfc" fill="none"/>
+  <ellipse ry="2.073977" rx="2.073977" id="svg_2" cy="29.333457" cx="26.184847" fill-opacity="null" stroke-width="2" stroke="#fcfcfc" fill="none"/>
+  <ellipse ry="3.036895" rx="3.036895" id="svg_3" cy="12.223146" cx="16.926021" fill-opacity="null" stroke-width="2" stroke="#fcfcfc" fill="none"/>
+ </g>
+</svg>
