@@ -145,8 +145,9 @@ h2{
     display: block;
     margin: auto;
 }
-    .sec-2{
+    .secqw{
         position: relative;
+        display: none;
     }
     @keyframes sec{
         0%{top:100px;opacity: 0;}
