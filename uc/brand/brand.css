@@ -1301,7 +1301,7 @@ tr-bx img{
     opacity: 1;
 }
 .hil{
-    background-image: url(images/hillw.svg);
+    background-image: url(images/creaw.svg);
     display: block;
     position: relative;
     margin-left: auto;
@@ -1313,9 +1313,9 @@ tr-bx img{
     background-repeat: no-repeat;
     background-size: contain;transition: 0.5s; transition: top 1s, opacity 1s;
 }
-.hil1{ background-image: url(images/hillc.svg);}
+.hil1{ background-image: url(images/creac.svg);}
 .wid{  position: relative;
-    background: url(images/wildw.svg);
+    background: url(images/marw.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1326,9 +1326,9 @@ tr-bx img{
     background-repeat: no-repeat;
     background-size: contain; transition: top 1s, opacity 1s;
 }
-.wid1{background-image: url(images/wildc.svg);}
+.wid1{background-image: url(images/marc.svg);}
 .templ{  position: relative;
-    background: url(images/templew.svg);
+    background: url(images/straw.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1339,9 +1339,9 @@ tr-bx img{
     background-repeat: no-repeat;
     background-size: contain; transition: top 1s, opacity 1s;
 }
-.templ1{background-image: url(images/templec.svg);}
+.templ1{background-image: url(images/strac.svg);}
 .hony{  position: relative;
-    background: url(images/honeyw.svg);
+    background: url(images/mediaw.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1354,7 +1354,7 @@ tr-bx img{
     transition: top 1s, opacity 1s;/*top: 100px*/;
 }
 .hony1{
-   background-image: url(images/honeyc.svg); 
+   background-image: url(images/mediac.svg); 
 }
 .txt-gala {
     padding: 0 10px;
@@ -1403,7 +1403,7 @@ tr-bx img{
     .fligt-con{order: 0;
     width: 400px;
     margin: auto;
-    border:10px solid #ffffff;
+    border:0px solid #ffffff;
 }
 .fligt-con img{
     width: 100%;
@@ -1496,9 +1496,9 @@ tr-bx img{
     .sec-flimg{
         position: absolute;
         border:5px solid #ffffff;
-        width: 200px;
+        width: 250px;
         top: 150px;
-        right: 0;
+        right: -50px;
     }
     .sec-flimg img{
         width: 100%;
