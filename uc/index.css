@@ -1467,7 +1467,7 @@ padding: 5px 0;
     .gala-imgs img{
         width: 150px;
         vertical-align: middle;
-       
+       height: 100%;
     }
     galar-main{
         margin: 0
