@@ -135,9 +135,9 @@
     .gala-imgs img{
         width: 150px;
         vertical-align: middle;
-        height: 100%;
+        
     }
-    galar-main{
+    .galar-main{
         margin: 0
     }
     
@@ -227,7 +227,7 @@ padding: 5px 0;
   transition-timing-function: ease-out;
 }
 .gala-act p:hover:before, .gala-act p:focus:before, .gala-act p:active:before {
- /* right: 0%;*/
+  right: 50%;
 }
     .gala-imgs{
         display: flex;
@@ -243,7 +243,7 @@ padding: 5px 0;
         vertical-align: middle;
         height: 100%;
     }
-    galar-main{
+    .galar-main{
         margin: 0
     }
     
@@ -1252,7 +1252,7 @@ tr-bx img{
 }
 .gala-imgs{
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
      animation: fun 1s;
     }
 @keyframes fun{
