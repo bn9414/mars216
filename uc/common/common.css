@@ -1586,7 +1586,7 @@ textarea {
     position: relative;
 }
 .cnt-conb p,.cnt-conb h1{color: #fcfcfc;text-align: center;}
-.cnt-conb h1{padding-top: 100px;font-size: 45px }
+.cnt-conb h1{padding-top: 150px;font-size: 40px }
 .cnt-conb p{font-size: 24px;}
 
 .cnt-conc{
@@ -1615,7 +1615,7 @@ textarea {
     position: relative;
 }
 .cnt-coni p,.cnt-coni h1{color: #fcfcfc;text-align: center;}
-.cnt-coni h1{padding-top: 100px;font-size: 45px }
+.cnt-coni h1{padding-top: 150px;font-size: 40px }
 .cnt-coni p{font-size: 24px;}
 
 .cnt-conl{
@@ -1625,7 +1625,7 @@ textarea {
     position: relative;
 }
 .cnt-conl p,.cnt-conl h1{color: #fcfcfc;text-align: center;}
-.cnt-conl h1{padding-top: 100px;font-size: 45px }
+.cnt-conl h1{padding-top: 150px;font-size: 45px }
 .cnt-conl p{font-size: 24px;}
 
 .cnt-conwi{
