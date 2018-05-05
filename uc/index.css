@@ -10,6 +10,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 
 }
 
+
 .lalin{
     border-bottom: 2px solid #9b3236;
 }
@@ -578,8 +579,8 @@ sup{
     color: #f41e28;
 }
 .icn-cap p{
-font-size: 14px;
-    font-weight: 600;
+font-size: 24px;
+    font-weight: 400;
 }
 @media (min-width:500px){
     .icn-con{
@@ -598,8 +599,8 @@ font-size: 14px;
 }
 
 }
-@media(min-width:700px){
-    .icn-con{flex-wrap: nowrap;}
+@media(min-width:840px){
+   
     .fil-cn .fi-im {
     width: 100px;
     top: -50px;
@@ -610,11 +611,16 @@ font-size: 14px;
         
         
 }
-    
+ 
     .verti1{display: flex;width: auto}
 .icn-con{justify-content: center;}
 .fil-cn{margin: 0px 50px}
+    .icn-con{flex-wrap: nowrap;} 
 }
+
+
+
+
 @media (min-width:617px) and (max-width:816px){
     .fil-cn {
     width: 280px;
@@ -1348,304 +1354,7 @@ font-size: 14px;
     }
 }
 /*testimonial*/
- .a-con{
-    position: relative;
-}
-.galar-main{
-    display: flex;
-}
-.gala-hd,.gala-para{
-    text-align: center;
-}
-.gala-act{
-    display: none;
-}
-.gala-imgs{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 0px;
-        justify-content: center;
-        animation: fun 1s;
-        position: relative;
-    }
-    .gala-imgs img{
-        width: 150px;
-<<<<<<< HEAD
-        vertical-align: middle;
-        /*height: 100%;*/
-    }
-=======
-         vertical-align: middle;
-    
-            }
->>>>>>> d5725c27c102079fd2eb9964b2fdcd2717c3309b
-    galar-main{
-        margin: 0
-    }
-    
-.gala-cape{
-    position: absolute;
-   left: 10px;
-    opacity: 1;
-    transform: scale(0.8);
-}
-.gala-cape .cape-img{
-    width: 20px;
-    position: relative;
-    display: block;
-    margin: auto;
-    
-}/**/
-.gala-cape .cap-hd1 p{color: #fcfcfc;
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-    width: 150px;
-    
-}
-.gala-cape .cap-hd1 h3{text-align: center;margin: 0px;font-size: 15px;color: #fcfcfc}
-       .gala-cape {
-    position: absolute;
-    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
-    opacity: 1;
-           font-size: 15px
-}
-
-@media screen and (min-width:460px){.gala-imgs img{
-        width: 250px;
-       
-    }
-}
-
-@media(min-width:600px){
-    .gala-act{
-    display: none;
-}
-.gala-hd,.gala-para{
-    text-align: center;
-}
-    .gala .a-con {
-   
-    }
-    
-.gala-act p{
-    font-size: 15px;
-    font-weight: 600;
-   
-}
-.galar-main{
-    display: flex;
-}
-    .gala-para{
-         width: 400px;
-        margin: auto
-    }
-    .gala-act{
-        display: none;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 0;
-        margin: auto;
-    }
-    .gala-act p {
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-padding: 5px 0;
-        cursor: pointer;
-        
-}
-.gala-act p:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #993233;
-  height: 4px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.gala-act p:hover:before, .gala-act p:focus:before, .gala-act p:active:before {
-  right: 50%;
-}
-    .gala-imgs{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 0px;
-        justify-content: center;
-        animation: fun 1s;
-            position: relative;
-    }
-    .gala-imgs img{
-        width: 100%;
-       
-    }
-    galar-main{
-        margin: 0
-    }
-    
-.gala-cape{
-    position: absolute;
-    /* top: 60px; */
-    left: -10px;
-    opacity: 1;
-    transform: scale(0.8);
-}
-.gala-cape .cape-img{
-    width: 30px;
-    position: relative;
-    display: block;
-    margin: auto;
-    
-}
-    .gala-imgs a{
-        width: 25%;
-    }
-.cap-hd1{
-    padding: 0px 5px;
-}
-.cap-hd1 h3,.cap-hd1 p{
-    color: #fcfcfc;
-    margin: 0;
-    text-align: center
-}
-.gala-cape .cap-hd1 p{
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-    width: 150px;
-    
-}
-}
-
-@media(min-width:700px){
-    .gala-act{
-    display: none;
-}
-    .gala-imgs{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 0px;
-        justify-content: flex-start;
-    }
-    .gala-imgs a{
-        width: 25%;
-    }
-    .gala-imgs img{
-        width: 100%;
-        
-    }
-    .gala-act{
-        display: flex;
-        width: 80%;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 0;
-        margin: auto;
-        
-    }
-    
-}
-@media(min-width:700px){
-    .gala-act{
-    display: none;
-}
-    .gala-cape {
-    position: absolute;
-    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
-    opacity: 1;
-}
-}
-@media(min-width:850px){
-    .gala-act{
-    display: none;
-}
-    .gala-cape {
-    position: absolute;
-    left: 0px;
-    opacity: 1;
-        top: 30px;
-}
-    .gala-cape .cap-hd1 p {
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-    width: 200px;
-}
-    .gala-cape {
-    position: absolute;
-    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
-    opacity: 1;
-}
-}
-@media(min-width:1000px){
-    .gala-cape {
-    position: absolute;
-    left: 20px;
-    opacity: 1;
-    top: 40px;
-    margin: auto;
-    }
-        .gala-cape {
-    position: absolute;
-    left: 0px;top: 10px;left: 50%;transform: translateX(-50%);
-    opacity: 1;
-}
-    .gala-cape cap-hd1 h3, .gala-cape cap-hd1 p {font-size: 20px}
-
-}
-@media(min-width:1100px){
-    .gala-cape {
-    position: absolute;
-    left: 30px;
-    opacity: 1;
-    top: 50px;
-    margin: auto;
-       transform: scale(1);
-    }
-    .gala-cape .cap-hd1 p {
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-}
-@media(min-width:1250px){
-    .gala-imgs img{
-        width: 100%;
-       
-       
-    }
-        .gala-cape {
-    position: absolute;
-    left: 50px;
-    opacity: 1;
-    top: 70px;
-    margin: auto;
-    }
-    .gala-cape .cap-hd1 p {
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-    
-}
  
-/*gallery*/
 
 /*footer*/
 .fot-hed{
@@ -1737,10 +1446,7 @@ padding: 5px 0;
     top: 210px;
     bottom: 50%;
 }
-    .gala-act p {
-    font-size: 20px;
-    font-weight: 600;
-}
+   
     .img-dvcon {
     width: 500px;
         height: 350px;
