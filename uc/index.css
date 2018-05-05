@@ -554,10 +554,12 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 120px;
     
 }
+.icn-div *{border: 1px olid}
+
 .fil-cn p{text-align: center;}
 .fil-cn img{
     width: 100px;
@@ -576,7 +578,7 @@ sup{
     color: #f41e28;
 }
 .icn-cap p{
-font-size: 16px;
+font-size: 14px;
     font-weight: 600;
 }
 @media (min-width:500px){
@@ -591,19 +593,27 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: auto;
     
 }
 
 }
 @media(min-width:700px){
+    .icn-con{flex-wrap: nowrap;}
     .fil-cn .fi-im {
     width: 100px;
     top: -50px;
     position: relative;
     opacity: 0;
     transition: top 1s;
+        
+        
+        
 }
+    
+    .verti1{display: flex;width: auto}
+.icn-con{justify-content: center;}
+.fil-cn{margin: 0px 50px}
 }
 @media (min-width:617px) and (max-width:816px){
     .fil-cn {
@@ -1395,6 +1405,13 @@ font-size: 16px;
     opacity: 1;
            font-size: 15px
 }
+
+@media screen and (min-width:460px){.gala-imgs img{
+        width: 250px;
+       
+    }
+}
+
 @media(min-width:600px){
     .gala-act{
     display: none;
@@ -1466,7 +1483,7 @@ padding: 5px 0;
             position: relative;
     }
     .gala-imgs img{
-        width: 150px;
+        width: 100%;
        
     }
     galar-main{
@@ -1606,7 +1623,7 @@ padding: 5px 0;
        
        
     }
-    .gala-cape {
+        .gala-cape {
     position: absolute;
     left: 50px;
     opacity: 1;
@@ -1735,3 +1752,6 @@ padding: 5px 0;
     font-size: 30px;
 }
 }
+
+
+
