@@ -2,6 +2,8 @@
         -webkit-tap-highlight-color: rgba(0,0,0,0);
      -webkit-tap-highlight-color: transparent; /* For some Androids */
 }
+
+.curs{font-family: 'Satisfy', cursive;font-weight: 300;font-size: 30px;}
 html{ height: 100%;}
 body{background-color: #fcfcfc;margin: 0px;}
 body * { box-sizing: content-box;  color: #454545;font-family: 'Lato', sans-serif;}
@@ -227,7 +229,7 @@ a{
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-    cursor: pointer;
+    cursor: pointer;color: #454545;
 }
 .sub-mne a:before {
   content: "";
@@ -246,9 +248,9 @@ a{
   transition-timing-function: ease-out;
 }
 .sub-mne a:hover:before, .sub-mne a:focus:before, .sub-mne a:active:before {
-  right: 40%;
-}
 
+}
+.sub-mne a:hover{color: #993233;}
 @media(min-width:1000px){
   #submnu1{
     display: flex;

@@ -70,10 +70,10 @@
     }
     
 .so-ban img{
-    width: 120%;
+    width: 105%;
     transition: width 1s;
     animation: imgso 2s;
-    
+    position: relative;top: -250px
 }
     .so-cap h1{
         font-size:35px;

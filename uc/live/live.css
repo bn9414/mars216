@@ -66,9 +66,9 @@
     }
     
 .so-ban img{
-    width: 120%;
+    width: 120%;position: relative;
     transition: width 1s;
-    animation: imgso 2s;
+    animation: imgso 2s;top: -520px;
     
 }
     .so-cap h1{
@@ -131,7 +131,7 @@ h2{
 .sec-2 p{
     padding: 10px;
     text-align: center;
-    color: #72727291
+    color: #454545;
 }
 
 @media(min-width:900px){
