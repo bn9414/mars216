@@ -262,3 +262,75 @@ function scrollani() {
     
  
 }
+
+
+/*slider nor*/
+var dot1 = document.getElementById("dot1");
+var dot2 = document.getElementById("dot2");
+var dot3 = document.getElementById("dot3");
+
+dot1.addEventListener("click",function(){
+                      slde(1);},false);
+
+dot2.addEventListener("click",function(){
+                      slde(2);},false);
+dot3.addEventListener("click",function(){
+                      slde(3);},false);
+
+function slde(a){
+    console.log(a);
+    if(a == 1){
+        dot1.style.background="#da5050";
+        dot1.style.border="1px solid #da5050";
+        
+        dot2.style.background="#454545 ";
+        dot2.style.border="1px solid #454545";
+        
+        dot3.style.background="#454545 ";
+        dot3.style.border="1px solid #454545";
+        
+        var secsld = document.getElementById('sec-sld');
+        var firsld = document.getElementById('fir-sld');
+        var tirsld = document.getElementById('tir-sld');
+        secsld.style.display="none";
+        firsld.style.display="block";
+        tirsld.style.display="none";
+        
+    }
+    else if(a == 2){
+        dot2.style.background="#da5050";
+        dot2.style.border="1px solid #da5050";
+        
+        dot1.style.background="#454545";
+        dot1.style.border="1px solid #454545";
+        
+        dot3.style.background="#454545 ";
+        dot3.style.border="1px solid #454545";
+        
+        var secsld1 = document.getElementById('sec-sld');
+        var firsld1 = document.getElementById('fir-sld');
+        var tirsld = document.getElementById('tir-sld');
+        secsld1.style.display="block";
+        firsld1.style.display="none";
+         tirsld.style.display="none";
+    }
+      else if(a == 3){
+        dot3.style.background="#da5050";
+        dot3.style.border="1px solid #da5050";
+        
+        dot2.style.background="#454545";
+        dot2.style.border="1px solid #454545";
+        
+        dot1.style.background="#454545 ";
+        dot1.style.border="1px solid #454545";
+        
+        var secsld2 = document.getElementById('sec-sld');
+        var firsld2 = document.getElementById('fir-sld');
+          var tirsld = document.getElementById('tir-sld');
+        secsld2.style.display="none";
+        firsld2.style.display="none";
+           tirsld.style.display="block";
+    }
+}
+slde(1);
+/*slider nor*/
