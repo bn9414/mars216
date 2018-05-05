@@ -2,7 +2,7 @@
         .so-cap h1{
     font-size: 28px !important;
     position: relative;
-    color: #fcfcfc;
+    color: #b5b5b5;
     width: 300px !important;
             text-align: center;
 }
@@ -19,7 +19,7 @@
 .so-ban{
     position: relative;
     height: auto;
-    overflow: hidden;
+    overflow: hidden;height: 400px;
 }
 .so-ban img{
     width: 300%;

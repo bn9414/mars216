@@ -21,7 +21,7 @@
 .so-ban{
     position: relative;
     height: auto;
-    overflow: hidden;
+    overflow: hidden;height: 400px;
 }
 .so-ban img{
     width: 300%;
@@ -63,8 +63,8 @@
 }
     @keyframes imgso{
     
-    from {width:130%;opacity: 0;}
-    to {width: 120%;opacity:1;}
+    from {width:115%;opacity: 0;}
+    to {width: 105%;opacity:1;}
     
     
     }
