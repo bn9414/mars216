@@ -1341,7 +1341,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* start: date of birth */
    #clet1,#clet21,#clet2,#clet22, #clet3,#clet23,#clet24{ font-size: 100%; width: 70%; margin: 10px 0px; margin-left: 55px;}
-#cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width:93%; margin: auto;margin: 20px;}
+#cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; /*width:93%;*/ margin: auto;margin: 20px;}
 #clet21, #clet22, #clet23,#clet24 {display: flex; justify-content: center; align-items: center; width: 100%; margin-left: 10px; margin: 0px 20px;margin-left:0;     font-size: 14px; }
 
 #clet21 input, #clet22 input,#clet24 input,#clet23 input { width: 95%; /*height: 50px;*/  padding-left: 20px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);*/border:1px solid #ddd; font-size: 100%; color: #2B2D42;
