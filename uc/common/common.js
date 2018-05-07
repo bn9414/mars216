@@ -44,7 +44,7 @@ var mnulist1 = document.getElementById('navlst');
         bar1.style.position="relative";
         bar1.style.transform="rotate(45deg)";
         bar1.style.transition=".4s";
-        bar1.style.top="12px";
+        bar1.style.top="11px";
         
         bar2.style.opacity="0";
         bar2.style.transition="opacity 0.1s";
@@ -54,7 +54,7 @@ var mnulist1 = document.getElementById('navlst');
         bar3.style.position="relative";
         bar3.style.transform="rotate(135deg)";
         bar3.style.transition=".4s";
-        bar3.style.top="-10px";
+        bar3.style.top="-5px";
     status = 1;
     }
     
@@ -98,11 +98,11 @@ var submnu2 = document.getElementById('submnu1');
         bar21.style.position="relative";
         bar21.style.transform="rotate(45deg)";
         bar21.style.transition=".4s";
-        bar21.style.top="12px";
+        bar21.style.top="11px";
         bar23.style.position="relative";
         bar23.style.transform="rotate(135deg)";
         bar23.style.transition=".4s";
-        bar23.style.top="-10px";
+        bar23.style.top="-5px";
     statusof = 1;
     }
     
