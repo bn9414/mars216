@@ -146,14 +146,15 @@ a{
 .bar-con{
     position: absolute;
     top: 20px;
-    left: 10px
+    left: 10px;
+    cursor: pointer;
 }
 .bar{
    
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 3px;
     background-color:#993233;
-    margin: 6px 0;
+    margin: 5px 0;
 
 }
 
@@ -240,8 +241,9 @@ a{
   transition-timing-function: ease-out;
 }
 .navlst a:hover:before, .navlst a:focus:before, .navlst a:active:before {
-  right: 50%;
+  right: 80%;
 }
+
 .sub-mne a {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -272,6 +274,9 @@ a{
 }
 .sub-mne a:hover{color: #993233;}
 @media(min-width:1000px){
+    .navlst a:hover:before, .navlst a:focus:before, .navlst a:active:before {
+  right: 50%;
+}
   #submnu1{
     display: flex;
       z-index: 1;
@@ -317,10 +322,10 @@ a{
 }
 .bar1{
    
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 3px;
     background-color:#993233;
-    margin: 6px 0;
+    margin: 5px 0;
 
 }
     
@@ -355,6 +360,7 @@ a{
     
     .bar-con1{
         position: relative ;
+            padding: 5px 0px;
     }
     .sub-mne{
         position: absolute;
