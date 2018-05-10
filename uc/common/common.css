@@ -1637,7 +1637,7 @@ textarea {
 .cnt-conl p{font-size: 24px;}
 
 .cnt-conwi{
-    background: url(images/wedding-min.jpg)no-repeat;
+    background: url(images/wed.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     position: relative;
@@ -1717,7 +1717,7 @@ textarea {
 }
  
     .cnt-conwi{
-    background: url(images/wedding-min.jpg)no-repeat;
+    background: url(images/wed.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     background-position: 90%,0%;

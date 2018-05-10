@@ -1,6 +1,9 @@
-$(window).load(function() {
+
+
+
+jQuery_1_5_2(window).load(function() {
 		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
+		jQuery_1_5_2(".se-pre-con").fadeOut("slow");;
 	});
 
 
@@ -107,5 +110,4 @@ var submnu2 = document.getElementById('submnu1');
     }
     
 }
-
 

@@ -39,7 +39,7 @@ function scrollImg(z){
     caphd[z].style.display="block";                              
 }
 scrollImg(0);
-var xset= setInterval(function(){incre(1);},3000);
+/*var xset= setInterval(function(){incre(1);},3000);*/
 /*slider nor*/
 var dot1 = document.getElementById("dot1");
 var dot2 = document.getElementById("dot2");
@@ -213,6 +213,9 @@ if(document.body.scrollTop >1600 || document.documentElement.scrollTop > 1600){
         
          fiim[3].style.top="0px";
         fiim[3].style.opacity="1";
+        
+        fiim[4].style.top="0px";
+        fiim[4].style.opacity="1";
         
 }
     if(document.body.scrollTop >2300 || document.documentElement.scrollTop > 2300){
