@@ -1,8 +1,8 @@
 //paste this code under the head tag or in a separate js file.
 	// Wait for window load
-	$(window).load(function() {
+	jQuery_1_5_2(window).load(function() {
 		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
+	jQuery_1_5_2(".se-pre-con").fadeOut("slow");;
         	
     var kimg= document.getElementsByClassName('kimg');
         var ktxt= document.getElementsByClassName('ktxt');
